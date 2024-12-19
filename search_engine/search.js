@@ -18,15 +18,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (result) {
                     resultContainer.innerHTML = `
                         <div>
-                            <p><strong>Title:</strong> ${result.title}</p>
-                            <p><strong>Proportion of women:</strong> ${result.proportion_actress.toFixed(3)}</p>
-                            <p><strong>Female script:</strong> ${result.female_script.toFixed(3)}</p>
-                            <p><strong>Bechdel Score:</strong> ${result.Bechdel_score}</p>
-                            <p><strong>Inclusion score:</strong> ${result.incl_score.toFixed(3)}</p>
-                            <p><strong>Rating:</strong> ${result.rating.toFixed(3)}</p>
-                            <p><strong>Net revenue:</strong> ${result.Net_revenue.toFixed(3)}</p>
-                            <p><strong>Success metric:</strong> ${result.SuccessMetric.toFixed(3)}</p>
-
+                            <p><strong style="font-size: 1em;">Title:</strong> ${result.title}</p>
+                            <p><strong style="font-size: 1em;">Inclusion Score:</strong> ${result.incl_score.toFixed(4)}</p>
+                            <span style="color: black;">Proportion of Actress:</span> ${result.proportion_actress.toFixed(4)}</p>
+                            <p><span style="color: black;">Share of Women Script:</span> ${result.female_script.toFixed(4)}</p>
+                            <p><span style="color: black;">Bechdel Score:</span> ${result.Bechdel_score}</p>
+                            <p><strong style="font-size: 1em;">Success Score:</strong> ${result.SuccessMetric.toFixed(4)}</p>
+                            <p><span style="color: black;">Rating:</span> ${result.rating.toFixed(4)}</p>
+                            <p><span style="color: black;">Net revenue:</span> $${Number(result.Net_revenue).toLocaleString('en-US').replace(/,/g, ' ')}</p>
                         </div>
                     `;
                 } else {
