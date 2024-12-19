@@ -29,19 +29,9 @@ title: "SARteam"
   </div>
  
    <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87e-05) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. This highlights the urgent need for more intentional and sustained efforts to foster equitable gender representation in the film industry.
+  The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87e-05) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
   </p>
 
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  The goal now is to observe whether the ratio of women to men evolves over time. Note that the distribution of movies is uneven, with some years having significantly fewer movies represented in the dataset. This imbalance can introduce bias when analyzing trends. To ensure a fair and accurate analysis, we focus on years with a minimum of 500 movies, reducing the impact of data sparsity and providing a more reliable foundation for identifying patterns.
-  </p>
-
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  This analysis of the female-to-male actor ratio over time shows that, while the absolute number of women in films has steadily increased, the ratio of women to men has remained largely unchanged. A linear regression of this ratio yields a slope of 0, indicating no significant shift in relative female representation. However, the ratio of male and female actors to the number of movies produced tells a more nuanced story.
-  The male ratio has generally fluctuated, indicating that for most of the analyzed period, there were consistently more male actors per movie compared to female actors. In contrast, the female ratio reflects a consistently lower number of female actors per film. Both trend lines suggest that the number of actors per movie has increased for both genders over the years, but the gap between male and female representation remains significant as confirmed by the pearson coefficient and the p-value. The intercept values of -8.15 for males and -6.14 for females further emphasize the historically low ratios of actors, especially for women, in earlier years.<br>
-  While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
-  </p>
-  
   <section style="margin: 40px auto; text-align: center;">
   <h2 style="margin-bottom: 20px; color: #2c3e50;">Some Statistics: Actor Ratio per Movie</h2>
 
