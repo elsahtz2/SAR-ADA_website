@@ -3,23 +3,30 @@ layout: default
 title: "SARteam"
 ---
 
-  <div style="display: flex; justify-content: center; align-items: center; margin: 60px auto; max-width: 1000px;">
 
-    <!-- Text Section -->
-    <div style="flex: 1; padding-right: 40px; max-width: 50%; display: flex; align-items: center;">
-      <p style="line-height: 1.8; font-size: 1.2em; margin: 0;">
-        To truly understand the challenges women face in the film industry, we must first examine the current landscape.
-        <br>
-        This visualization highlights the current gender distribution in cinema, underscoring the imbalance that persists.
-      As expected, a significant difference is observed in the number of actors between men and women. Now, the question is: even if women have always been underrepresented in cinema since its inception, has their representation increased over the years?
-      </p>
-    </div>
-    <!-- gender distribution -->
-    <div style="flex: 1; max-width: 50%; display: flex; justify-content: center;">
-      <iframe src="assets/gender_distribution.html" width="100%" height="430px" style="border: none;"></iframe>
-    </div>
+<div style="display: flex; justify-content: center; align-items: center; margin: 60px auto; max-width: 1000px; flex-wrap: wrap;">
 
+  <!-- Heading Section -->
+  <div style="width: 100%; margin-bottom: 20px;">
+    <h2 style="color: #000000;">Behind the curtain: The current state of women in cinema</h2>
   </div>
+
+  <!-- Text Section -->
+  <div style="flex: 1; padding-right: 40px; max-width: 50%; display: flex; align-items: center; box-sizing: border-box;">
+    <p style="line-height: 1.8; font-size: 1.2em; margin: 0;">
+      To truly understand the challenges women face in the film industry, we must first examine the current landscape.
+      <br>
+      This visualization highlights the current gender distribution in cinema, underscoring the imbalance that persists.
+      As expected, a significant difference is observed in the number of actors between men and women. Now, the question is: even if women have always been underrepresented in cinema since its inception, has their representation increased over the years?
+    </p>
+  </div>
+
+  <!-- Gender Distribution -->
+  <div style="flex: 1; max-width: 50%; display: flex; justify-content: center; box-sizing: border-box;">
+    <iframe src="assets/gender_distribution.html" width="100%" height="430px" style="border: none;"></iframe>
+  </div>
+
+</div>
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
     <!-- Actor ratio per movie over the years -->
@@ -35,7 +42,6 @@ title: "SARteam"
    <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87e-05) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. This highlights the urgent need for more intentional and sustained efforts to foster equitable gender representation in the film industry. While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
   </p>
-  
   <section style="margin: 40px auto; text-align: center;">
   <h2 style="margin-bottom: 20px; color: #2c3e50;">Some Statistics: Actor Ratio per Movie</h2>
 
@@ -65,7 +71,7 @@ title: "SARteam"
     </div>
 
   </div>
-  </section>
+</section>
 
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   This persistent imbalance raises important questions about the types of roles women are cast in and how their stories are represented within various film genres. To further explore this, we examined the prevalence of female protagonists across the most frequent movie genres, aiming to understand where progress is being made and where more work is needed. 
@@ -114,7 +120,7 @@ title: "SARteam"
   <div class="counter" 
        style="background-color: #eaeaea; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); max-width: 200px;" 
        title="The Chi-square statistic measures the deviation between observed and expected frequencies.">
-    <h2 class="timer count-title count-number" data-to="370.63" data-speed="2000" style="color: #2c3e50; font-size: 2.5em; margin: 0 0 10px 0;">370.63</h2>
+    <div class="count-title count-number" style="color: #2c3e50; font-size: 2.5em; font-weight: bold; margin: 0 0 10px 0;">370.63</div>
     <p class="count-text" style="color: #2c3e50; font-weight: bold;">Chi-square Statistic</p>
   </div>
 
@@ -199,72 +205,76 @@ Let's start by examining how the Bechdel Test scores have changed over the years
 
   <p> <strong>SAR team:</strong> Okay, this Bechdel Test is very interesting. However, if you create a movie with the intent of achieving a Bechdel score of 3, this is very easy. You just need to hire two women, name their character and write a two-line dialogue about something unrelated to men. Therefore, we aim to create a more meaningful metric to evaluate whether a movie is truly inclusive.</p><br><br>
 
-  <p class="indent"> The Bechdel score provides a solid foundation for developing an inclusivity metric. To build on this, we also evaluate the proportion of actresses in the movie to assess the level of female representation. However, this alone is insufficient. A movie may feature many women in minor or background roles, or conversely, a single actress who takes on the lead role. Therefore, we also consider the share of the script attributed to actresses to capture their meaningful presence in the film.
-  </p>
-  <p class="indent">
-      Indeed, looking at the distribution of the script in the figure below provided by <a href="https://pudding.cool/2017/03/film-dialogue/" target="_blank" rel="noopener noreferrer">The Pudding</a>. Only 24% of movies show an equal or more female distribution of the script!
-  </p>
+<p class="indent" style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  The Bechdel score provides a solid foundation for developing an inclusivity metric. To build on this, we also evaluate the proportion of actresses in the movie to assess the level of female representation. However, this alone is insufficient. A movie may feature many women in minor or background roles, or conversely, a single actress who takes on the lead role. Therefore, we also consider the share of the script attributed to actresses to capture their meaningful presence in the film.
+</p>
+
+<p class="indent" style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  Indeed, looking at the distribution of the script in the figure below provided by <a href="https://pudding.cool/2017/03/film-dialogue/" target="_blank" rel="noopener noreferrer">The Pudding</a>, only 24% of movies show an equal or more female distribution of the script!
+</p>
+
 
   <br>
   <div style="width: 100%; height: 100vh; overflow: hidden;">
     <iframe src='https://pudding.cool/2017/03/film-dialogue/embed.html' frameborder='0' style="width: 110%; height: 110%; border: none;"></iframe>
   </div>
 
-Thus, the inclusivity score is calculated as follows:<br><br>
+<div style="font-size: 1.2em; line-height: 1.6; margin: 40px 0; text-align: justify;">
+  <p>Thus, the inclusivity score is calculated as follows:</p>
 
-$$
-\textbf{Inclusivity Score} = \frac{\text{Normalized Bechdel Score} + \text{Promotion of Actress} + \text{Women’s Share of the Script}}{3}
-$$
-
-  <br>
+  <div style="text-align: center; margin: 20px 0;">
+    $$
+    \textbf{Inclusivity Score} = \frac{\text{Normalized Bechdel Score} + \text{Promotion of Actress} + \text{Women’s Share of the Script}}{3}
+    $$
+  </div>
 
   <p>
-      <strong>1. Normalized Bechdel Score:</strong> The traditional Bechdel score scaled to ensure compatibility with other metrics.<br>
-      <strong>2. Promotion of Actress:</strong> The proportion of actresses in the movie compared to actors.<br>
-      <strong>3. Women’s Share of the Script:</strong> The percentage of the script allocated to female characters.<br><br>
-  </p>
-  <p class="indent"> This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test. </p>
-
-  <br />
-
-  <p> <strong>Producer:</strong> This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores all have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.</p>
-
-{% include movie_dashboard.html %}
-
-  <br />
-  <p class="indent"> Indeed, when examining movies ranked by either their inclusivity or their success scores, we observe a potential negative correlation between inclusivity and success. Specifically, less inclusive movies appear to be more successful compared to their more inclusive counterparts. However, when looking at movies ranked by their success, the connection between success and low inclusivity becomes less apparent: some of the least successful movies have low inclusivity scores, while several successful movies demonstrate good inclusivity. That said, the very top-performing movies tend to remain relatively uninclusive. Further statistical analyses using both Pearson and Spearman correlation analyses provides a reassuring perspective, as the results indicate only a weak negative correlation. The Pearson correlation coefficient is -0.125 (p-value = 6.82e-05), and the Spearman correlation coefficient is -0.126 (p-value = 6.33e-05). While the low p-values indicate the results are statistically significant, the correlation coefficients are close to zero, signifying a very weak association. This suggests no meaningful evidence of inclusivity negatively impacting a movie's success.
+    <strong>1. Normalized Bechdel Score:</strong> The traditional Bechdel score scaled to ensure compatibility with other metrics.<br>
+    <strong>2. Promotion of Actress:</strong> The proportion of actresses in the movie compared to actors.<br>
+    <strong>3. Women’s Share of the Script:</strong> The percentage of the script allocated to female characters.
   </p>
 
-  <br />
+  <p>This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test.</p>
 
-  <p> <strong>SAR team:</strong> You can be reassured, if your movie is good, prioritizing inclusivity will not harm its success. However, there is still significant progress to be made before inclusivity becomes the norm in movie industry. While we would expect that inclusivity positively contributes to a movie’s success, we are far from it. Achieving this will require continued efforts, such as better representation of women in storytelling and active advocacy within the industry. </p>
+  <p>
+    <strong>Producer:</strong> This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores all have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.
+  </p>
 
-  <br />
-  <br />
+  {% include movie_dashboard.html %}
+
+  <p>
+    Indeed, when examining movies ranked by either their inclusivity or their success scores, we observe a potential negative correlation between inclusivity and success. Specifically, less inclusive movies appear to be more successful compared to their more inclusive counterparts. However, when looking at movies ranked by their success, the connection between success and low inclusivity becomes less apparent: some of the least successful movies have low inclusivity scores, while several successful movies demonstrate good inclusivity. That said, the very top-performing movies tend to remain relatively uninclusive. Further statistical analyses using both Pearson and Spearman correlation analyses provides a reassuring perspective, as the results indicate only a weak negative correlation. The Pearson correlation coefficient is -0.125 (p-value = 6.82e-05), and the Spearman correlation coefficient is -0.126 (p-value = 6.33e-05). While the low p-values indicate the results are statistically significant, the correlation coefficients are close to zero, signifying a very weak association. This suggests no meaningful evidence of inclusivity negatively impacting a movie's success.
+  </p>
+
+  <p>
+    <strong>SAR team:</strong> You can be reassured, if your movie is good, prioritizing inclusivity will not harm its success. However, there is still significant progress to be made before inclusivity becomes the norm in movie industry. While we would expect that inclusivity positively contributes to a movie’s success, we are far from it. Achieving this will require continued efforts, such as better representation of women in storytelling and active advocacy within the industry.
+  </p>
+</div>
+
 
 # The Success Metric
+<div style="font-size: 1.2em; line-height: 1.6; margin: 40px 0; text-align: justify;">
+  <p><strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie.</p>
 
-  <p> <strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie. </p>
-  <br />
-  <br />
-  <p class="indent"> Defining what constitutes the success of a movie is not an easy task. Naturally, we want the movie to generate as much revenue as possible, but we also consider it equally important for the movie to be appreciated by the audience. To capture this balance, we introduce a success metric:
-  </p>
+  <p>Defining what constitutes the success of a movie is not an easy task. Naturally, we want the movie to generate as much revenue as possible, but we also consider it equally important for the movie to be appreciated by the audience. To capture this balance, we introduce a success metric:</p>
 
-$$
-  \textbf{Net Box Office Revenue} = \text{Box Office Revenue} - \text{Initial Budget}
-$$
+  <div style="text-align: center; margin: 20px 0;">
+    $$
+    \textbf{Net Box Office Revenue} = \text{Box Office Revenue} - \text{Initial Budget}
+    $$
+  </div>
 
-$$
-  \textbf{Success Metric} = a_1 \cdot \text{rank}(\text{Net Box Office Revenue}) + a_2 \cdot \text{rank}(\text{Rating})
-$$
+  <div style="text-align: center; margin: 20px 0;">
+    $$
+    \textbf{Success Metric} = a_1 \cdot \text{rank}(\text{Net Box Office Revenue}) + a_2 \cdot \text{rank}(\text{Rating})
+    $$
+  </div>
 
-  <p class="indent"> Here, \( a_{1} \) and \( a_{2} \) are constants. In our case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. This choice seems reasonable since the correlation of the ranking and the revenue is relatively weak (Pearson correlation = 0.273, p-value = 1.66e-62; Spearman correlation = 0.271, p-value = 1.01e-61), suggesting that the two metrics capture distinct and independent aspects of success.
-  However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.
-  </p>
-  <br />
-  <br />
-  <p class="indent"> Using the rank of revenue and rating ensures equal weighting between the two metrics, even if the revenue values are significantly large. For example, a movie with the highest revenue in the dataset will have rank(Net Box Office Revenue) = 1. However, if it is the lowest-rated movie, regardless of how large its revenue is rank(Rating) = 0 In this case, the success metric would be of 0.5. This ranking approach prevents the success metric from being disproportionately influenced by very high revenue figures, ensuring that both factors contribute fairly to the final score.
-  </p>
+  <p>Here, \( a_{1} \) and \( a_{2} \) are constants. In our case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. This choice seems reasonable since the correlation of the ranking and the revenue is relatively weak (Pearson correlation = 0.273, p-value = 1.66e-62; Spearman correlation = 0.271, p-value = 1.01e-61), suggesting that the two metrics capture distinct and independent aspects of success. However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.</p>
+
+  <p>Using the rank of revenue and rating ensures equal weighting between the two metrics, even if the revenue values are significantly large. For example, a movie with the highest revenue in the dataset will have rank(Net Box Office Revenue) = 1. However, if it is the lowest-rated movie, regardless of how large its revenue is, rank(Rating) = 0. In this case, the success metric would be 0.5. This ranking approach prevents the success metric from being disproportionately influenced by very high revenue figures, ensuring that both factors contribute fairly to the final score.</p>
+</div>
+
   <br />
   <br />
 
@@ -301,65 +311,64 @@ $$
    By identifying which lexical categories contribute positively or negatively, as a producer you can adjust your language choices to craft more inclusive, respectful, and uplifting narratives.
    <br>
    </p>
-  <<section style="margin: 40px auto; text-align: center;">
-  
-  <h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
+ 
+ <h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
+<h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
 
-  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap;">
+<div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap;">
 
-    <!-- Male Summaries Counter -->
-    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; min-width: 200px;"
-         title="Male context summaries: 501">
-      <i class="fa fa-male fa-2x" style="color: #000000;"></i>
-      <h2 style="color: #2c3e50; margin: 10px 0;">47.8</h2>
-      <p class="count-text" style="color: #2c3e50;">Percentage of male-context summaries (%)</p>
-    </div>
-
-    <!-- Female Summaries Counter -->
-    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; min-width: 200px;"
-         title="Female context summaries: 325">
-      <i class="fa fa-female fa-2x" style="color: #000000;"></i>
-      <h2 style="color: #2c3e50; margin: 10px 0;">31</h2>
-      <p class="count-text" style="color: #2c3e50;">Percentage of female-context summaries (%)</p>
-    </div>
-
-    <!-- Neutral Summaries Counter -->
-    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; min-width: 200px;"
-         title="Neutral context summaries: 223">
-      <i class="fa fa-users fa-2x" style="color: #000000;"></i>
-      <h2 style="color: #2c3e50; margin: 10px 0;">21.2</h2>
-      <p class="count-text" style="color: #2c3e50;">Percentage of neutral-context summaries (%)</p>
-    </div>
-
+  <!-- Male Summaries Counter -->
+  <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
+       title="Male context summaries: 501">
+    <i class="fa fa-male fa-2x" style="color: #000000;"></i>
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">47.8</div>
+    <p class="count-text" style="color: #2c3e50;">Percentage of male-context summaries (%)</p>
   </div>
 
-  <h2 style="margin-top: 40px; color: #2c3e50;">Average inclusivity score by gender context</h2>
-
-  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
-
-    <!-- Male Inclusivity Score -->
-    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;"
-         title="Average inclusivity score for male-context summaries">
-      <h2 style="color: #2c3e50; margin: 10px 0;">38</h2>
-      <p class="count-text" style="color: #2c3e50;">Male average (%)</p>
-    </div>
-
-    <!-- Female Inclusivity Score -->
-    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;"
-         title="Average inclusivity score for female-context summaries">
-      <h2 style="color: #2c3e50; margin: 10px 0;">50</h2>
-      <p class="count-text" style="color: #2c3e50;">Female average (%)</p>
-    </div>
-
-    <!-- Neutral Inclusivity Score -->
-    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px;"
-         title="Average inclusivity score for neutral-context summaries">
-      <h2 style="color: #2c3e50; margin: 10px 0;">41</h2>
-      <p class="count-text" style="color: #2c3e50;">Neutral average (%)</p>
-    </div>
-
+  <!-- Female Summaries Counter -->
+  <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
+       title="Female context summaries: 325">
+    <i class="fa fa-female fa-2x" style="color: #000000;"></i>
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">31</div>
+    <p class="count-text" style="color: #2c3e50;">Percentage of female-context summaries (%)</p>
   </div>
-</section>
+
+  <!-- Neutral Summaries Counter -->
+  <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
+       title="Neutral context summaries: 223">
+    <i class="fa fa-users fa-2x" style="color: #000000;"></i>
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">21.2</div>
+    <p class="count-text" style="color: #2c3e50;">Percentage of neutral-context summaries (%)</p>
+  </div>
+
+</div>
+
+<h2 style="margin-top: 40px; color: #2c3e50;">Average inclusivity score by gender context</h2>
+
+<div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+
+  <!-- Male Inclusivity Score -->
+  <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">38</div>
+    <p class="count-text" style="color: #2c3e50;">Male average (%)</p>
+  </div>
+
+  <!-- Female Inclusivity Score -->
+  <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">50</div>
+    <p class="count-text" style="color: #2c3e50;">Female average (%)</p>
+  </div>
+
+  <!-- Neutral Inclusivity Score -->
+  <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">41</div>
+    <p class="count-text" style="color: #2c3e50;">Neutral average (%)</p>
+  </div>
+
+</div>
+
+
+
 
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   By understanding how different lexical categories affect inclusivity, producers can strategically adjust language to craft respectful and uplifting stories. Our gender context statistics underscore this point: male-context summaries dominate at 47.8%, while female-context summaries lag at 31%- These imbalances highlight the need for more authentic female representation. Importantly, female-context narratives achieve higher inclusivity scores (50%) compared to male (38%) and neutral contexts (41%).
