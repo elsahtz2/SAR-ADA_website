@@ -69,17 +69,12 @@ title: "SARteam"
       <iframe src="assets/top_tropes_men.html" width="100%" height="500px" style="border: none;"></iframe>
     </div>
   </div>
-  
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-   Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
-   <br>
-   </p>
-
 
 <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
    Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
    <br>
 </p>
+
 <section style="margin: 0px; display: flex; justify-content: space-between; gap: 30px; max-width: 1200px; margin-right: auto;">
 
   <!-- Left-aligned Text -->
@@ -99,72 +94,84 @@ title: "SARteam"
 
 </section>
 
-# The Bechdel Score
+# The Bechdel Test
 
-### The Bechdel Test
+### What is the Bechdel Test
 
   <div style="margin: 20px 0; text-align: justify;">
-    <p><strong>Film Director:</strong> I’ve heard about this interesting metric called the Bechdel Test. It’s a great starting point to evaluate how inclusive a movie is when it comes to gender representation. Let me walk you through it:</p>
+    <p><strong>Film Director:</strong> You might have heard of the <a href="https://bechdeltest.com/" target="_blank" rel="noopener noreferrer">Bechdel Test</a>, a simple yet powerful tool to assess gender representation in movies. Let me walk you through how it works:</p>
     
-  <p>The Bechdel Test is based on three simple criteria:</p>
-    <ol style="margin: 15px auto; padding-left: 20px; max-width: 1200px; list-style-position: outside; text-align: justify;">
-      <li>Does the film have at least two named women?</li>
-      <li>Do these women talk to each other?</li>
-      <li>Do they discuss something other than a man?</li>
-  </ol>
+  <p>The Bechdel Test is based on three simple criteria:</p> 
+  <ol style="margin: 15px auto; padding-left: 20px; max-width: 1200px; list-style-position: outside; text-align: justify;"> 
+  <li>Does the film feature at least two named women?</li> 
+  <li>Do these women talk to each other?</li> 
+  <li>Do they discuss something other than a man?</li> 
+  </ol> 
+  
+  <p>While it might seem like a basic checklist, you'd be surprised at how many films fail to meet these criteria. Though the Bechdel Test doesn't capture every aspect of inclusivity, it provides valuable insights into how women are represented in films. Let's explore the results from different regions and years to see how films have evolved over time.</p> </div>
+
+### Visualizing the Test's Results
+
+Let's start by examining how the Bechdel Test scores have changed over the years.
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1000px;">
+  <div style="flex: 1; max-width: 100%; text-align: center;">
+    <iframe src="assets/avg_bechdel_score_by_year.html" width="100%" height="500px" style="border: none;"></iframe>
+  </div>
+</div>
+
+<p>As we can see, before 1930, films generally scored below 2 on the Bechdel Test, meaning it was rare to have two named female characters discussing something other than men. The first film to score a 2 was "Manhandled," marking a significant milestone in gender representation. It was about time!</p> <br>
+
+<p>Next, let's take a look at how the results vary around the world.</p>
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 900px;">
+  <div style="flex: 1; max-width: 100%; text-align: center;">
+    <iframe src="assets/average_bechdel_score_map.html" width="100%" height="450px" style="border: none;"></iframe>
+  </div>
+</div>
+
+<p>However, be cautious when interpreting these results. Hovering over countries reveals that the U.S. has a disproportionately large number of films in the Bechdel Test database, which may skew the global representation.</p> <br>
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
+
+    <!-- Gender Distribution (Moved to the left side) -->
+    <div style="flex: 1; max-width: 60%; display: flex; justify-content: center;">
+      <iframe src="assets/bechdel_countries_piechart.html" width="90%" height="550px" style="border: none;"></iframe>
+    </div>
     
-    <p>It might sound simple, but you’d be surprised how many films fail to meet these basic requirements. While the test doesn’t capture everything about inclusivity, it’s a valuable tool for spotting patterns in storytelling. Let’s take a look at the results from various regions and years to see how movies perform.</p>
-  </div>
-
-### Visualizing the Bechdel Test Results
-
-Along the years: Avg bechdel test result
-
-  <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
-    <div style="flex: 1; max-width: 100%; text-align: center;">
-      <iframe src="assets/avg_bechdel_score_by_year.html" width="100%" height="500px" style="border: none;"></iframe>
+    <!-- Text Section (Moved to the right side) -->
+    <div style="flex: 1; padding-left: 40px; max-width: 40%; display: flex; align-items: center;">
+      <p style="line-height: 1.8; font-size: 1.2em; margin: 0;">
+        To further highlight this, we have this pie chart showing the five countries with the most films in the database.<br>
+        As expected, 80% of the films come from the United States. This heavy U.S. representation means we should be cautious when interpreting the Bechdel scores for other countries. Drawing sociological conclusions about women's status in cinema based on global data would be premature, as many countries are underrepresented. Our study, therefore, will focus on U.S. films for more reliable conclusions.
+      </p>
     </div>
+    
+</div>
+
+
+<p>Now that we've looked at the Bechdel Test's evolution and its global representation, let's dive deeper into the relationship between a film's cast and its Bechdel Test score. Specifically, we will analyze how the proportion of female actresses in the main cast correlates with the film's Bechdel score.</p>
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1000px;">
+  <div style="flex: 1; max-width: 100%; text-align: center;">
+    <iframe src="assets/bechdel_score_vs_female_ratio.html" width="100%" height="500px" style="border: none;"></iframe>
   </div>
+</div>
 
-Around the world:
+<p>Although the correlation between the Bechdel Test score and the proportion of female main cast members is modest, the extremely low p-value (10^-175) suggests that this relationship is statistically significant.</p>
+<p>Interestingly, we observe a film like "Sword of the Stranger," which has a Bechdel score of 3 but 0% female main characters. This indicates that a film can pass the Bechdel Test without having significant female presence in the main cast. This highlights the complexity of the Bechdel Test and how it doesn't always reflect the depth of female representation in a film.</p>
 
-  <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
-    <div style="flex: 1; max-width: 100%; text-align: center;">
-      <iframe src="assets/average_bechdel_score_map.html" width="100%" height="500px" style="border: none;"></iframe>
-    </div>
-  </div>
+<br />
+<br />
 
-Be careful! Over representation of the US in the Bechdel score databse:
-
-  <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
-    <div style="flex: 1; max-width: 100%; text-align: center;">
-      <iframe src="assets/bechdel_countries_piechart.html" width="100%" height="500px" style="border: none;"></iframe>
-    </div>
-  </div>
-
-Interesting, and how does the bechdel score relate to the cast of a movie?
-
-  <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
-    <div style="flex: 1; max-width: 100%; text-align: center;">
-      <iframe src="assets/bechdel_score_vs_female_ratio.html" width="100%" height="500px" style="border: none;"></iframe>
-    </div>
-  </div>
-
-To add: Bechdel + Genre
-
-  <br />
-  <br />
-
-  <p> <strong>Film Director:</strong> As you can see in the visualizations above, the results reveal significant trends in gender representation across different regions and time periods. For example, North America shows some improvement over the decades, but there’s still work to do. Europe and Asia have their own unique patterns as well.</p>
-
-  <p> While passing the Bechdel Test is a good start, we need to think about how meaningful the roles for women really are. Let’s discuss how we can go beyond this and create truly inclusive films.</p>
+<p>While passing the Bechdel Test is a useful first step, it’s crucial to think beyond the test. What truly matters is how meaningful the roles of women are in film. Let’s explore how we can create films that are not only inclusive but also genuinely empowering for women.</p>
 
 # The Inclusivity Score
 
   <br />
   <br />
 
-  <p> <strong>SAR team:</strong> Okay, this Bechdel Test is very interesting. However, if you create a movie with the intent of achieving a Bechdel score of 3, this is very easy. You just need to hire two women and write a two-line dialogue about something unrelated to men. Therefore, we aim to create a more meaningful metric to evaluate whether a movie is truly inclusive.</p><br><br>
+  <p> <strong>SAR team:</strong> Okay, this Bechdel Test is very interesting. However, if you create a movie with the intent of achieving a Bechdel score of 3, this is very easy. You just need to hire two women, name their character and write a two-line dialogue about something unrelated to men. Therefore, we aim to create a more meaningful metric to evaluate whether a movie is truly inclusive.</p><br><br>
 
   <p class="indent"> The Bechdel score provides a solid foundation for developing an inclusivity metric. To build on this, we also evaluate the proportion of actresses in the movie to assess the level of female representation. However, this alone is insufficient. A movie may feature many women in minor or background roles, or conversely, a single actress who takes on the lead role. Therefore, we also consider the share of the script attributed to actresses to capture their meaningful presence in the film.
   </p>
