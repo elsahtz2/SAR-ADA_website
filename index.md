@@ -2,52 +2,6 @@
 layout: default
 title: "SARteam"
 ---
-<!DOCTYPE html>
-<!-- The letter displayed initially -->
-<div id="initial-letter-container">
-  <div id="initial-letter" class="letter">A</div>
-</div>
-
-<div id="main-site" style="display: none;">
-
-  <div class="chat-container">
-    <!-- Marine's message -->
-    <div class="chat-message marine">
-      <div class="contact-picture">
-        <img src="assets/img/productrice.png" alt="Marine">
-      </div>
-      <div class="chat-bubble">
-        For over a century, cinema has shaped how we see the world, crafting our stories and reflecting our cultures. Yet, the way women are written remains trapped in the past. I’ve been a producer in this industry for over a decade and I remember standing backstage at the Oscars ceremony when a director remarked, “There just aren’t enough compelling stories with women leads.” How can we say that when we've barely allowed women to be anything but the mother, the wife, the lover ? 
-        I’m done watching brilliant actresses confined to clichés. I want to create movies where women drive the story, stories where they’re not just present but pivotal. It’s time to break free from the old narrative!
-      </div>
-    </div>
-    <!-- Marco's typing effect (appears first) -->
-    <div id="typing-indicator" class="chat-message marco">
-      <div class="contact-picture">
-        <img src="assets/img/SAR.png" alt="Marco">
-      </div>
-      <div class="chat-bubble">
-        <div class="typing-animation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div>
-    <!-- Marco's response (appears after typing) -->
-    <div id="marco-response" class="chat-message marco" style="display: none;">
-      <div class="contact-picture">
-        <img src="assets/img/SAR.png" alt="Marco">
-      </div>
-      <div class="chat-bubble">
-        We’re here to help you turn your vision into reality! Through our analysis, we will help you create a movie that not only shines at the box office but sets a new benchmark for equality in cinema. We'll guide you through the key ingredients for crafting a movie that is as inclusive as it is successful. Because while inclusivity is the mission, success is the name of the game and our recommendations are designed to deliver both. So, let’s pull back the curtain on the current industry and explore the challenges that stand between you and a truly groundbreaking, inclusive movie. Together, let’s rewrite the narrative...
-      </div>
-    </div>
-      
-  <!-- Include your JavaScript file at the end of the body section -->
-<script src="assets/js/message.js"></script>
-
-<div id="additional-content" style="display: none;">
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 60px auto; max-width: 1000px;">
 
@@ -56,7 +10,7 @@ title: "SARteam"
       <p style="line-height: 1.8; font-size: 1.2em; margin: 0;">
         To truly understand the challenges women face in the film industry, we must first examine the current landscape.
         <br>
-        This visualization highlights the current gender distribution in cinema, underscoring the imbalance that persists. 
+        This visualization highlights the current gender distribution in cinema, underscoring the imbalance that persists.
       As expected, a significant difference is observed in the number of actors between men and women. Now, the question is: even if women have always been underrepresented in cinema since its inception, has their representation increased over the years?
       </p>
     </div>
@@ -64,6 +18,7 @@ title: "SARteam"
     <div style="flex: 1; max-width: 50%; display: flex; justify-content: center;">
       <iframe src="assets/gender_distribution.html" width="100%" height="430px" style="border: none;"></iframe>
     </div>
+
   </div>
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
@@ -119,7 +74,7 @@ title: "SARteam"
    Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
    <br>
    </p>
-  
+
 
 <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
    Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
@@ -161,9 +116,9 @@ title: "SARteam"
     <p>It might sound simple, but you’d be surprised how many films fail to meet these basic requirements. While the test doesn’t capture everything about inclusivity, it’s a valuable tool for spotting patterns in storytelling. Let’s take a look at the results from various regions and years to see how movies perform.</p>
   </div>
 
-  ### Visualizing the Bechdel Test Results
+### Visualizing the Bechdel Test Results
 
-  Along the years: Avg bechdel test result
+Along the years: Avg bechdel test result
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
     <div style="flex: 1; max-width: 100%; text-align: center;">
@@ -171,7 +126,7 @@ title: "SARteam"
     </div>
   </div>
 
-  Around the world:
+Around the world:
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
     <div style="flex: 1; max-width: 100%; text-align: center;">
@@ -179,7 +134,7 @@ title: "SARteam"
     </div>
   </div>
 
-  Be careful! Over representation of the US in the Bechdel score databse:
+Be careful! Over representation of the US in the Bechdel score databse:
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
     <div style="flex: 1; max-width: 100%; text-align: center;">
@@ -187,7 +142,7 @@ title: "SARteam"
     </div>
   </div>
 
-  Interesting, and how does the bechdel score relate to the cast of a movie?
+Interesting, and how does the bechdel score relate to the cast of a movie?
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
     <div style="flex: 1; max-width: 100%; text-align: center;">
@@ -195,7 +150,7 @@ title: "SARteam"
     </div>
   </div>
 
-  To add: Bechdel + Genre
+To add: Bechdel + Genre
 
   <br />
   <br />
@@ -204,7 +159,7 @@ title: "SARteam"
 
   <p> While passing the Bechdel Test is a good start, we need to think about how meaningful the roles for women really are. Let’s discuss how we can go beyond this and create truly inclusive films.</p>
 
-  # The Inclusivity Score
+# The Inclusivity Score
 
   <br />
   <br />
@@ -222,11 +177,11 @@ title: "SARteam"
     <iframe src='https://pudding.cool/2017/03/film-dialogue/embed.html' frameborder='0' style="width: 110%; height: 110%; border: none;"></iframe>
   </div>
 
-  Thus, the inclusivity score is calculated as follows:<br><br>
+Thus, the inclusivity score is calculated as follows:<br><br>
 
-  $$
-  \textbf{Inclusivity Score} = \frac{\text{Normalized Bechdel Score} + \text{Promotion of Actress} + \text{Women’s Share of the Script}}{3}
-  $$
+$$
+\textbf{Inclusivity Score} = \frac{\text{Normalized Bechdel Score} + \text{Promotion of Actress} + \text{Women’s Share of the Script}}{3}
+$$
 
   <br>
 
@@ -241,7 +196,7 @@ title: "SARteam"
 
   <p> <strong>Producer:</strong> This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores all have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.</p>
 
-  {% include movie_dashboard.html %}
+{% include movie_dashboard.html %}
 
   <br />
   <p class="indent"> Indeed, when examining movies ranked by either their inclusivity or their success scores, we observe a potential negative correlation between inclusivity and success. Specifically, less inclusive movies appear to be more successful compared to their more inclusive counterparts. However, when looking at movies ranked by their success, the connection between success and low inclusivity becomes less apparent: some of the least successful movies have low inclusivity scores, while several successful movies demonstrate good inclusivity. That said, the very top-performing movies tend to remain relatively uninclusive. Further statistical analyses using both Pearson and Spearman correlation analyses provides a reassuring perspective, as the results indicate only a weak negative correlation. The Pearson correlation coefficient is -0.125 (p-value = 6.82e-05), and the Spearman correlation coefficient is -0.126 (p-value = 6.33e-05). While the low p-values indicate the results are statistically significant, the correlation coefficients are close to zero, signifying a very weak association. This suggests no meaningful evidence of inclusivity negatively impacting a movie's success.
@@ -254,7 +209,7 @@ title: "SARteam"
   <br />
   <br />
 
-  # The Success Metric
+# The Success Metric
 
   <p> </strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie. </p>
   <br />
@@ -262,13 +217,13 @@ title: "SARteam"
   <p class="indent"> Defining what constitutes the success of a movie is not an easy task. Naturally, we want the movie to generate as much revenue as possible, but we also consider it equally important for the movie to be appreciated by the audience. To capture this balance, we introduce a success metric:
   </p>
 
-  $$
-    \textbf{Net Box Office Revenue} = \text{Box Office Revenue} - \text{Initial Budget}
-  $$
+$$
+  \textbf{Net Box Office Revenue} = \text{Box Office Revenue} - \text{Initial Budget}
+$$
 
-  $$
-    \textbf{Success Metric} = a_1 \cdot \text{rank}(\text{Net Box Office Revenue}) + a_2 \cdot \text{rank}(\text{Rating})
-  $$
+$$
+  \textbf{Success Metric} = a_1 \cdot \text{rank}(\text{Net Box Office Revenue}) + a_2 \cdot \text{rank}(\text{Rating})
+$$
 
   <p class="indent"> Here, \( a_{1} \) and \( a_{2} \) are constants. In this case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.
   </p>
@@ -281,7 +236,6 @@ title: "SARteam"
 
   <br />
   <br />
-
 
   <!-- Search Widget -->
   <div class="search-widget">
@@ -354,11 +308,6 @@ title: "SARteam"
  remain underrepresented. <br><br>
  Including women in roles traditionally dominated by men, such as "soldier," "lawyer," or "scientist," while maintaining their emotional depth, can break stereotypes and appeal to modern viewers. Storylines that highlight female resilience, empowerment, and resourcefulnes, reflected by words like "fight," "rescue," and "survive” tend  to engage audiences and reflect societal progress.
  Additionally, diversifying the ethnic backgrounds, ages, and body types of female characters enhances authenticity and broadens appeal. Representation of women in leadership or decision-making roles not only 
- promotes inclusivity but also connects with contemporary themes of empowerment and equality. Finally, for success, ensure that these stories are woven into compelling narratives with strong plot development, relatable challenges, and emotional resonance. Inclusive movies that celebrate diversity and 
+ promotes inclusivity but also connects with contemporary themes of empowerment and equality. Finally, for success, ensure that these stories are woven into compelling narratves with strong plot development, relatable challenges, and emotional resonance. Inclusive movies that celebrate diversity and 
  authenticity without sacrificing quality storytelling have the potential to achieve both critical acclaim and commercial success.<br>
  </p>
-
-</div>
-
-<!-- Include the sound file -->
-<audio id="letter-sound" src="assets/sounds/send.wav" preload="auto"></audio>
