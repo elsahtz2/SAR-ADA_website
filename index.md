@@ -57,9 +57,7 @@ title: "SARteam"
         To truly understand the challenges women face in the film industry, we must first examine the current landscape.
         <br>
         This visualization highlights the current gender distribution in cinema, underscoring the imbalance that persists. 
-        As expected, a significant difference is observed in the number of actors between men and women. Here, men represent 
-        66.18% of the actors, while women account for 33.82%. Now, the question is: even if women have always been 
-        underrepresented in cinema since its inception, has their representation increased over the years?
+      As expected, a significant difference is observed in the number of actors between men and women. Now, the question is: even if women have always been underrepresented in cinema since its inception, has their representation increased over the years?
       </p>
     </div>
     <!-- gender distribution -->
@@ -123,9 +121,32 @@ title: "SARteam"
    </p>
   
 
-  # The Bechdel Score
+<p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+   Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
+   <br>
+</p>
+<section style="margin: 0px; display: flex; justify-content: space-between; gap: 30px; max-width: 1200px; margin-right: auto;">
 
-  ### The Bechdel Test
+  <!-- Left-aligned Text -->
+  <div style="flex: 1;">
+    <p style="font-size: 1.2em; line-height: 1.6; margin: 0;">
+      The Chi-square statistic indicates a strong deviation from the expected frequency distribution of the tropes between different genders. The very small p-value of 5.6×10<sup>-42</sup> suggests that the result is statistically significant, meaning there is a highly significant association between the gender of the actor and the trope they portray. This means that the distribution of tropes across genders is not due to random chance, but rather there is a clear relationship between the two variables.
+    </p>
+  </div>
+
+  <!-- Right-aligned Chi-square Box with Tooltip -->
+  <div class="counter" 
+       style="background-color: #eaeaea; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); max-width: 200px;" 
+       title="The Chi-square statistic measures the deviation between observed and expected frequencies.">
+    <h2 class="timer count-title count-number" data-to="370.63" data-speed="2000" style="color: #2c3e50; font-size: 2.5em; margin: 0 0 10px 0;">370.63</h2>
+    <p class="count-text" style="color: #2c3e50; font-weight: bold;">Chi-square Statistic</p>
+  </div>
+
+</section>
+
+# The Bechdel Score
+
+### The Bechdel Test
 
   <div style="margin: 20px 0; text-align: justify;">
     <p><strong>Film Director:</strong> I’ve heard about this interesting metric called the Bechdel Test. It’s a great starting point to evaluate how inclusive a movie is when it comes to gender representation. Let me walk you through it:</p>
