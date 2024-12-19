@@ -47,31 +47,39 @@ title: "SARteam"
 
   <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
 
-    <!--  Pearson Coefficient -->
+    <!-- Male Pearson Coefficient -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;" 
+         title="The p-value of 1.71×10⁻²⁴ associated with this coefficient confirms that this trend is both strong and statistically significant.">
+      <i class="fa fa-male fa-2x" style="color: #000000;"></i>
+      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">0.8600</div>
+      <p class="count-text" style="color: #2c3e50;">Male Pearson Coefficient</p>
+    </div>
 
     <!-- Female Pearson Coefficient -->
-    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" title="The p-value of 2.3.87e-05 associated with this coefficient confirms that this trend is both strong and statistically significant.">
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" 
+         title="The p-value of 2.16×10⁻²⁹ associated with this coefficient confirms that this trend is both strong and statistically significant.">
       <i class="fa fa-female fa-2x" style="color: #000000;"></i>
-      <h2 style="color: #2c3e50; margin: 10px 0;">0.491</h2>
+      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">0.8971</div>
       <p class="count-text" style="color: #2c3e50;">Female Pearson Coefficient</p>
     </div>
 
     <!-- Male Actors per Movie -->
     <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;">
       <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
-      <h2 style="color: #2c3e50; margin: 10px 0;">2.25</h2>
-      <p class="count-text" style="color: #2c3e50;">Average male Actors per Movie</p>
+      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">2.25</div>
+      <p class="count-text" style="color: #2c3e50;">Male Actors per Movie</p>
     </div>
 
     <!-- Female Actors per Movie -->
     <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;">
       <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
-      <h2 style="color: #2c3e50; margin: 10px 0;">1.00</h2>
-      <p class="count-text" style="color: #2c3e50;">Average female Actors per Movie</p>
+      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">1.00</div>
+      <p class="count-text" style="color: #2c3e50;">Female Actors per Movie</p>
     </div>
 
   </div>
 </section>
+
 
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   This persistent imbalance raises important questions about the types of roles women are cast in and how their stories are represented within various film genres. To further explore this, we examined the prevalence of female protagonists across the most frequent movie genres, aiming to understand where progress is being made and where more work is needed. 
