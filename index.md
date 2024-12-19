@@ -281,6 +281,10 @@ Let's start by examining how the Bechdel Test scores have changed over the years
   <br />
   <br />
 
+  <div class="sankey-container">
+    {% include sankey_diagram.html %}
+  </div>
+
   <!-- Search Widget -->
   <div class="search-widget">
     <div class="label">Search your favourite movie:</div>
