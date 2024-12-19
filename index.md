@@ -28,6 +28,7 @@ title: "SARteam"
     </div>
   </div>
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+ 
   From the early 1900s to 2000, male actors consistently outnumbered female actors, with the gap increasing over time. Since the early 2000s, both male and female representation has improved, but women still remain behind. While recent growth in female representation indicates progress, the industry remains far from achieving gender balance.
   </p>
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
@@ -46,6 +47,42 @@ title: "SARteam"
   While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
   </p>
   
+  <section style="margin: 40px auto; text-align: center;">
+  <h2 style="margin-bottom: 20px; color: #2c3e50;">Some Statistics: Actor Ratio per Movie</h2>
+
+  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+
+    <!-- Male Pearson Coefficient -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;" title="The p-value of 1.71×10⁻²⁴ associated with this coefficient confirms that this trend is both strong and statistically significant.">
+      <i class="fa fa-male fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">0.8600</h2>
+      <p class="count-text" style="color: #2c3e50;">Male Pearson Coefficient</p>
+    </div>
+
+    <!-- Female Pearson Coefficient -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" title="The p-value of 2.16×10⁻²⁹ associated with this coefficient confirms that this trend is both strong and statistically significant.">
+      <i class="fa fa-female fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">0.8971</h2>
+      <p class="count-text" style="color: #2c3e50;">Female Pearson Coefficient</p>
+    </div>
+
+    <!-- Male Actors per Movie -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;">
+      <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">2.25</h2>
+      <p class="count-text" style="color: #2c3e50;">Male Actors per Movie</p>
+    </div>
+
+    <!-- Female Actors per Movie -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;">
+      <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">1.00</h2>
+      <p class="count-text" style="color: #2c3e50;">Female Actors per Movie</p>
+    </div>
+
+  </div>
+  </section>
+
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   This persistent imbalance raises important questions about the types of roles women are cast in and how their stories are represented within various film genres. To further explore this, we examined the prevalence of female protagonists across the most frequent movie genres, aiming to understand where progress is being made and where more work is needed. 
   </p>
@@ -267,7 +304,66 @@ $$
    By identifying which lexical categories contribute positively or negatively, as a producer you can adjust your language choices to craft more inclusive, respectful, and uplifting narratives.
    <br>
    </p>
+  <<section style="margin: 40px auto; text-align: center;">
   
+  <h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
+
+  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap;">
+
+    <!-- Male Summaries Counter -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; min-width: 200px;" 
+         title="Male context summaries: 501">
+      <i class="fa fa-male fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">47.8</h2>
+      <p class="count-text" style="color: #2c3e50;">Percentage of male-context summaries (%)</p>
+    </div>
+
+    <!-- Female Summaries Counter -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; min-width: 200px;" 
+         title="Female context summaries: 325">
+      <i class="fa fa-female fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">31</h2>
+      <p class="count-text" style="color: #2c3e50;">Percentage of female-context summaries (%)</p>
+    </div>
+
+    <!-- Neutral Summaries Counter -->
+    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; min-width: 200px;" 
+         title="Neutral context summaries: 223">
+      <i class="fa fa-users fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">21.2</h2>
+      <p class="count-text" style="color: #2c3e50;">Percentage of neutral-context summaries (%)</p>
+    </div>
+
+  </div>
+
+  <h2 style="margin-top: 40px; color: #2c3e50;">Average inclusivity score by gender context</h2>
+
+  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+
+    <!-- Male Inclusivity Score -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;" 
+         title="Average inclusivity score for male-context summaries">
+      <h2 style="color: #2c3e50; margin: 10px 0;">38</h2>
+      <p class="count-text" style="color: #2c3e50;">Male average (%)</p>
+    </div>
+
+    <!-- Female Inclusivity Score -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" 
+         title="Average inclusivity score for female-context summaries">
+      <h2 style="color: #2c3e50; margin: 10px 0;">50</h2>
+      <p class="count-text" style="color: #2c3e50;">Female average (%)</p>
+    </div>
+
+    <!-- Neutral Inclusivity Score -->
+    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px;" 
+         title="Average inclusivity score for neutral-context summaries">
+      <h2 style="color: #2c3e50; margin: 10px 0;">41</h2>
+      <p class="count-text" style="color: #2c3e50;">Neutral average (%)</p>
+    </div>
+
+  </div>
+</section>
+
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   By understanding how different lexical categories affect inclusivity, producers can strategically adjust language to craft respectful and uplifting stories. Our gender context statistics underscore this point: male-context summaries dominate at 47.8%, while female-context summaries lag at 31%- These imbalances highlight the need for more authentic female representation. Importantly, female-context narratives achieve higher inclusivity scores (50%) compared to male (38%) and neutral contexts (41%).
   </p>
