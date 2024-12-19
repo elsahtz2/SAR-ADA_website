@@ -281,9 +281,26 @@ Let's start by examining how the Bechdel Test scores have changed over the years
   <br />
   <br />
 
+  <p>Now that we have defined the success metric, we decided to process our data using a decision tree. This approach helps us identify key features for predicting the success metric. To represent this method, we used a Sankey diagram, where nodes correspond to feature-based decision points (e.g., runtime, proportion of actresses, etc.), and links show the flow of samples satisfying those conditions. Each node displays a condition and its associated success score, providing insight into how the model predicts different outcomes. Features higher in the tree (closer to the left), like "Runtime" and "proportion_actress," are the most influential.</p>
+
   <div class="sankey-container">
     {% include sankey_diagram.html %}
   </div>
+
+  <br />
+  <br />
+
+  <br />
+  <br />
+
+  <h1 id="the-success-metric">Some trivia</h1>
+
+  <p class="indent"> Now that we have defined all our metrics and scores, you can now search for your favorite movie and see what score it has on those different metrics. You might be shocked of the results !
+  </p>
+
+  </p>
+  <p><br />
+  <br /></p>
 
   <!-- Search Widget -->
   <div class="search-widget">
