@@ -22,30 +22,51 @@ title: "SARteam"
   </div>
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
-    <!-- gender distribution over the year -->
-    <div style="width: 100%; max-width: 1000px; text-align: center;">
-      <iframe src="assets/gender_distribution_years.html" width="100%" height="600px" style="border: none;"></iframe>
-    </div>
-  </div>
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  From the early 1900s to 2000, male actors consistently outnumbered female actors, with the gap increasing over time. Since the early 2000s, both male and female representation has improved, but women still remain behind. While recent growth in female representation indicates progress, the industry remains far from achieving gender balance.
-  </p>
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  The goal now is to observe whether the ratio of women to men evolves over time. Note that the distribution of movies is uneven, with some years having significantly fewer movies represented in the dataset. This imbalance can introduce bias when analyzing trends. To ensure a fair and accurate analysis, we focus on years with a minimum of 500 movies, reducing the impact of data sparsity and providing a more reliable foundation for identifying patterns.
-  </p>
-
-  <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
     <!-- Actor ratio per movie over the years -->
     <div style="width: 100%; max-width: 1000px; text-align: center;">
-      <iframe src="assets/actor_ratio_per_movie.html" width="100%" height="600px" style="border: none;"></iframe>
+      <iframe src="assets/actress_prop_years.html" width="100%" height="600px" style="border: none;"></iframe>
     </div>
   </div>
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  This analysis of the female-to-male actor ratio over time shows that, while the absolute number of women in films has steadily increased, the ratio of women to men has remained largely unchanged. A linear regression of this ratio yields a slope of 0, indicating no significant shift in relative female representation. However, the ratio of male and female actors to the number of movies produced tells a more nuanced story.
-  The male ratio has generally fluctuated, indicating that for most of the analyzed period, there were consistently more male actors per movie compared to female actors. In contrast, the female ratio reflects a consistently lower number of female actors per film. Both trend lines suggest that the number of actors per movie has increased for both genders over the years, but the gap between male and female representation remains significant as confirmed by the pearson coefficient and the p-value. The intercept values of -8.15 for males and -6.14 for females further emphasize the historically low ratios of actors, especially for women, in earlier years.<br>
-  While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
+  
+   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  The goal now is to observe whether the proportion of actress in the cast evolves over time. Note that the distribution of movies is uneven, with some years having significantly fewer movies represented in the dataset. This imbalance can introduce bias when analyzing trends. To ensure a fair and accurate analysis, we focus on years with a minimum of 500 movies, reducing the impact of data sparsity and providing a more reliable foundation for identifying patterns.
+  </p>
+
+   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87e-05) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. This highlights the urgent need for more intentional and sustained efforts to foster equitable gender representation in the film industry. While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
   </p>
   
+  <section style="margin: 40px auto; text-align: center;">
+  <h2 style="margin-bottom: 20px; color: #2c3e50;">Some Statistics: Actor Ratio per Movie</h2>
+
+  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+
+    <!--  Pearson Coefficient -->
+
+    <!-- Female Pearson Coefficient -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" title="The p-value of 2.3.87e-05 associated with this coefficient confirms that this trend is both strong and statistically significant.">
+      <i class="fa fa-female fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">0.491</h2>
+      <p class="count-text" style="color: #2c3e50;">Female Pearson Coefficient</p>
+    </div>
+
+    <!-- Male Actors per Movie -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;">
+      <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">2.25</h2>
+      <p class="count-text" style="color: #2c3e50;">Average male Actors per Movie</p>
+    </div>
+
+    <!-- Female Actors per Movie -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;">
+      <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">1.00</h2>
+      <p class="count-text" style="color: #2c3e50;">Average female Actors per Movie</p>
+    </div>
+
+  </div>
+  </section>
+
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   This persistent imbalance raises important questions about the types of roles women are cast in and how their stories are represented within various film genres. To further explore this, we examined the prevalence of female protagonists across the most frequent movie genres, aiming to understand where progress is being made and where more work is needed. 
   </p>
@@ -69,6 +90,11 @@ title: "SARteam"
       <iframe src="assets/top_tropes_men.html" width="100%" height="500px" style="border: none;"></iframe>
     </div>
   </div>
+  
+  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+   Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
+   <br>
+   </p>
 
 <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
    Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
@@ -197,7 +223,7 @@ $$
       <strong>2. Promotion of Actress:</strong> The proportion of actresses in the movie compared to actors.<br>
       <strong>3. Women’s Share of the Script:</strong> The percentage of the script allocated to female characters.<br><br>
   </p>
-  <p class="indent"> This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test.</p>
+  <p class="indent"> This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test. </p>
 
   <br />
 
@@ -218,7 +244,7 @@ $$
 
 # The Success Metric
 
-  <p> </strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie. </p>
+  <p> <strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie. </p>
   <br />
   <br />
   <p class="indent"> Defining what constitutes the success of a movie is not an easy task. Naturally, we want the movie to generate as much revenue as possible, but we also consider it equally important for the movie to be appreciated by the audience. To capture this balance, we introduce a success metric:
@@ -232,7 +258,8 @@ $$
   \textbf{Success Metric} = a_1 \cdot \text{rank}(\text{Net Box Office Revenue}) + a_2 \cdot \text{rank}(\text{Rating})
 $$
 
-  <p class="indent"> Here, \( a_{1} \) and \( a_{2} \) are constants. In this case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.
+  <p class="indent"> Here, \( a_{1} \) and \( a_{2} \) are constants. In our case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. This choice seems reasonable since the correlation of the ranking and the revenue is relatively weak (Pearson correlation = 0.273, p-value = 1.66e-62; Spearman correlation = 0.271, p-value = 1.01e-61), suggesting that the two metrics capture distinct and independent aspects of success.
+  However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.
   </p>
   <br />
   <br />
@@ -274,7 +301,66 @@ $$
    By identifying which lexical categories contribute positively or negatively, as a producer you can adjust your language choices to craft more inclusive, respectful, and uplifting narratives.
    <br>
    </p>
+  <<section style="margin: 40px auto; text-align: center;">
   
+  <h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
+
+  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap;">
+
+    <!-- Male Summaries Counter -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; min-width: 200px;"
+         title="Male context summaries: 501">
+      <i class="fa fa-male fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">47.8</h2>
+      <p class="count-text" style="color: #2c3e50;">Percentage of male-context summaries (%)</p>
+    </div>
+
+    <!-- Female Summaries Counter -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; min-width: 200px;"
+         title="Female context summaries: 325">
+      <i class="fa fa-female fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">31</h2>
+      <p class="count-text" style="color: #2c3e50;">Percentage of female-context summaries (%)</p>
+    </div>
+
+    <!-- Neutral Summaries Counter -->
+    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; min-width: 200px;"
+         title="Neutral context summaries: 223">
+      <i class="fa fa-users fa-2x" style="color: #000000;"></i>
+      <h2 style="color: #2c3e50; margin: 10px 0;">21.2</h2>
+      <p class="count-text" style="color: #2c3e50;">Percentage of neutral-context summaries (%)</p>
+    </div>
+
+  </div>
+
+  <h2 style="margin-top: 40px; color: #2c3e50;">Average inclusivity score by gender context</h2>
+
+  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+
+    <!-- Male Inclusivity Score -->
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;"
+         title="Average inclusivity score for male-context summaries">
+      <h2 style="color: #2c3e50; margin: 10px 0;">38</h2>
+      <p class="count-text" style="color: #2c3e50;">Male average (%)</p>
+    </div>
+
+    <!-- Female Inclusivity Score -->
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;"
+         title="Average inclusivity score for female-context summaries">
+      <h2 style="color: #2c3e50; margin: 10px 0;">50</h2>
+      <p class="count-text" style="color: #2c3e50;">Female average (%)</p>
+    </div>
+
+    <!-- Neutral Inclusivity Score -->
+    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px;"
+         title="Average inclusivity score for neutral-context summaries">
+      <h2 style="color: #2c3e50; margin: 10px 0;">41</h2>
+      <p class="count-text" style="color: #2c3e50;">Neutral average (%)</p>
+    </div>
+
+  </div>
+</section>
+
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   By understanding how different lexical categories affect inclusivity, producers can strategically adjust language to craft respectful and uplifting stories. Our gender context statistics underscore this point: male-context summaries dominate at 47.8%, while female-context summaries lag at 31%- These imbalances highlight the need for more authentic female representation. Importantly, female-context narratives achieve higher inclusivity scores (50%) compared to male (38%) and neutral contexts (41%).
   </p>
