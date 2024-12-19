@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const resultContainer = document.getElementById("resultContainer");
 
     // Load the dataset
-    fetch("./search_engine/data.json")
+    fetch("./assests/data/movies_data.json")
         .then(response => response.json())
         .then(data => {
             searchInput.addEventListener("input", function () {
@@ -19,9 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     resultContainer.innerHTML = `
                         <div>
                             <p><strong>Title:</strong> ${result.title}</p>
-                            <p><strong>Inclusion score:</strong> ${result.incl_score}</p>
-                            <p><strong>Success metric:</strong> ${result.SuccessMetric}</p>
+                            <p><strong>Proportion of women:</strong> ${result.proportion_actress}</p>
+                            <p><strong>Female script:</strong> ${result.female_script}</p>
                             <p><strong>Bechdel Score:</strong> ${result.Bechdel_score}</p>
+                            <p><strong>Inclusion score:</strong> ${result.incl_score}</p>
+                            <p><strong>Rating:</strong> ${result.rating}</p>
+                            <p><strong>Net revenue:</strong> ${result.Net_revenue}</p>
+                            <p><strong>Success metric:</strong> ${result.SuccessMetric}</p>
                         </div>
                     `;
                 } else {
@@ -34,4 +38,3 @@ document.addEventListener("DOMContentLoaded", function () {
             resultContainer.innerHTML = "<p>Failed to load data.</p>";
         });
 });
-
