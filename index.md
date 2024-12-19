@@ -112,7 +112,6 @@ title: "SARteam"
    <br>
    </p>
 
-
 <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
    Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
    <br>
@@ -227,7 +226,7 @@ $$
       <strong>2. Promotion of Actress:</strong> The proportion of actresses in the movie compared to actors.<br>
       <strong>3. Women’s Share of the Script:</strong> The percentage of the script allocated to female characters.<br><br>
   </p>
-  <p class="indent"> This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test.</p>
+  <p class="indent"> This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test. </p>
 
   <br />
 
@@ -248,7 +247,7 @@ $$
 
 # The Success Metric
 
-  <p> </strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie. </p>
+  <p> <strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie. </p>
   <br />
   <br />
   <p class="indent"> Defining what constitutes the success of a movie is not an easy task. Naturally, we want the movie to generate as much revenue as possible, but we also consider it equally important for the movie to be appreciated by the audience. To capture this balance, we introduce a success metric:
@@ -262,7 +261,8 @@ $$
   \textbf{Success Metric} = a_1 \cdot \text{rank}(\text{Net Box Office Revenue}) + a_2 \cdot \text{rank}(\text{Rating})
 $$
 
-  <p class="indent"> Here, \( a_{1} \) and \( a_{2} \) are constants. In this case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.
+  <p class="indent"> Here, \( a_{1} \) and \( a_{2} \) are constants. In our case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. This choice seems reasonable since the correlation of the ranking and the revenue is relatively weak (Pearson correlation = 0.273, p-value = 1.66e-62; Spearman correlation = 0.271, p-value = 1.01e-61), suggesting that the two metrics capture distinct and independent aspects of success.
+  However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.
   </p>
   <br />
   <br />
@@ -311,7 +311,7 @@ $$
   <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap;">
 
     <!-- Male Summaries Counter -->
-    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; min-width: 200px;" 
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; min-width: 200px;"
          title="Male context summaries: 501">
       <i class="fa fa-male fa-2x" style="color: #000000;"></i>
       <h2 style="color: #2c3e50; margin: 10px 0;">47.8</h2>
@@ -319,7 +319,7 @@ $$
     </div>
 
     <!-- Female Summaries Counter -->
-    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; min-width: 200px;" 
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; min-width: 200px;"
          title="Female context summaries: 325">
       <i class="fa fa-female fa-2x" style="color: #000000;"></i>
       <h2 style="color: #2c3e50; margin: 10px 0;">31</h2>
@@ -327,7 +327,7 @@ $$
     </div>
 
     <!-- Neutral Summaries Counter -->
-    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; min-width: 200px;" 
+    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; min-width: 200px;"
          title="Neutral context summaries: 223">
       <i class="fa fa-users fa-2x" style="color: #000000;"></i>
       <h2 style="color: #2c3e50; margin: 10px 0;">21.2</h2>
@@ -341,21 +341,21 @@ $$
   <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
 
     <!-- Male Inclusivity Score -->
-    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;" 
+    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;"
          title="Average inclusivity score for male-context summaries">
       <h2 style="color: #2c3e50; margin: 10px 0;">38</h2>
       <p class="count-text" style="color: #2c3e50;">Male average (%)</p>
     </div>
 
     <!-- Female Inclusivity Score -->
-    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" 
+    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;"
          title="Average inclusivity score for female-context summaries">
       <h2 style="color: #2c3e50; margin: 10px 0;">50</h2>
       <p class="count-text" style="color: #2c3e50;">Female average (%)</p>
     </div>
 
     <!-- Neutral Inclusivity Score -->
-    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px;" 
+    <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px;"
          title="Average inclusivity score for neutral-context summaries">
       <h2 style="color: #2c3e50; margin: 10px 0;">41</h2>
       <p class="count-text" style="color: #2c3e50;">Neutral average (%)</p>

@@ -9,14 +9,13 @@
   text-indent: 2em;
 }
 
-
 /* Hero Banner Section */
 .hero-banner {
-  font-family: "Didot", serif;
+  font-family: "Times New Roman", Times, serif;
   position: relative;
   width: 100%;
   height: 400px; /* Adjust the height as needed */
-  background-image: url('../img/HImage.jpg');
+  background-image: url("../img/HImage.jpg");
   background-size: cover;
   background-position: center;
   color: white; /* Ensure text is visible */
@@ -46,8 +45,6 @@
 .hero-subtext p {
   margin: 5px 0; /* Add slight spacing between the lines */
 }
-
-
 
 /* Title */
 .hero-content h1 {
@@ -86,7 +83,9 @@
 body {
   background-color: #fff;
   padding-top: 70px; /* Adjust this to match navbar height */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
+    sans-serif;
   color: #595959;
   font-weight: 400;
 }
@@ -119,7 +118,7 @@ body {
 .navbar-title {
   flex: 1;
   text-align: center;
-  font-family: "Didot", serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .navbar-title a {
@@ -162,7 +161,7 @@ body {
 
 /* =table of content */
 .toc-menu h2 {
-  font-family: "Palatino", serif;
+  font-family: "Times New Roman", Times, serif;
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: bold;
@@ -181,25 +180,25 @@ body {
 }
 .toc-menu a {
   text-decoration: none;
-  font-family: "Palatino", serif;
-  color: black;       
+  font-family: "Times New Roman", Times, serif;
+  color: black;
 }
 
 .toc-level-1 a {
-  font-family: "Palatino", serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.2em;
   font-weight: bold;
 }
 
 .toc-level-2 a {
-  font-family: "Palatino", serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1em;
   margin-left: 15px;
   font-weight: bold;
 }
 
 .toc-level-3 a {
-  font-family: "Palatino", serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1em;
   margin-left: 30px;
   font-weight: bold;
@@ -218,7 +217,6 @@ body {
   overflow-y: auto;
   margin: 0; /* Ensure no margin after the chat container */
 }
-
 
 /* Remove extra space below the chat container */
 .chat-container + * {
@@ -351,7 +349,13 @@ body {
 }
 
 /* Clear any default margins from <p>, <h1>, etc., after chat container */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0; /* Remove top margin */
   padding: 0; /* Remove padding if necessary */
 }
@@ -366,7 +370,7 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color:white; /* Optional background */
+  background-color: white; /* Optional background */
   position: fixed;
   top: 0;
   left: 0;
@@ -376,12 +380,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .letter {
   color: transparent;
-  background-image: url('../img/telephone.png') ;
+  background-image: url("../img/telephone.png");
   background-position: center;
   text-align: center;
   font-size: 303pt;
 }
-
 
 #main-site {
   display: none; /* Hidden initially */
@@ -389,48 +392,53 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Heading Styles */
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.5em;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2em;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.75em;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.5em;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.25em;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1em;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2;
   color: #333;
 }
@@ -465,32 +473,27 @@ h6::before {
   border-top: 1px solid #e0e0e0; /* Optional: subtle top border for separation */
 }
 
-
 /* Search Widget Styles */
 .search-widget {
-  background-image: url('../img/ticket.jpg'); /* Set the background image */
+  background-image: url("../img/ticket.jpg"); /* Set the background image */
   background-size: cover;
   background-position: center;
   padding: 20px; /* Add space inside the container */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
-  width: 1000px ;
-  height: 400px ;
+  width: 1000px;
+  height: 400px;
 }
-
-
 
 .label {
   display: block; /* Ensure label is inline with the input */
-  margin-bottom: 5px;    /* Reduce space below the label */
-  margin-right: 10px;    /* Add space between the label and input */
+  margin-bottom: 5px; /* Reduce space below the label */
+  margin-right: 10px; /* Add space between the label and input */
   margin-left: 110px;
   margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: #ffffff; /* Darker red tone for better contrast */
 }
-
-
 
 #searchInput {
   border: 2px solid #cc5555; /* Softer border */
@@ -564,4 +567,3 @@ h6::before {
     padding: 8px 10px;
   }
 }
-
