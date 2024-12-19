@@ -22,12 +22,11 @@ title: "SARteam"
   </div>
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
-    <!-- gender distribution over the year -->
+    <!-- Actor ratio per movie over the years -->
     <div style="width: 100%; max-width: 1000px; text-align: center;">
-      <iframe src="assets/gender_distribution_years.html" width="100%" height="600px" style="border: none;"></iframe>
+      <iframe src="assets/actress_prop_years.html" width="100%" height="600px" style="border: none;"></iframe>
     </div>
   </div>
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
  
   From the early 1900s to 2000, male actors consistently outnumbered female actors, with the gap increasing over time. Since the early 2000s, both male and female representation has improved, but women still remain behind. While recent growth in female representation indicates progress, the industry remains far from achieving gender balance.
   </p>
@@ -35,12 +34,6 @@ title: "SARteam"
   The goal now is to observe whether the ratio of women to men evolves over time. Note that the distribution of movies is uneven, with some years having significantly fewer movies represented in the dataset. This imbalance can introduce bias when analyzing trends. To ensure a fair and accurate analysis, we focus on years with a minimum of 500 movies, reducing the impact of data sparsity and providing a more reliable foundation for identifying patterns.
   </p>
 
-  <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
-    <!-- Actor ratio per movie over the years -->
-    <div style="width: 100%; max-width: 1000px; text-align: center;">
-      <iframe src="assets/actor_ratio_per_movie.html" width="100%" height="600px" style="border: none;"></iframe>
-    </div>
-  </div>
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   This analysis of the female-to-male actor ratio over time shows that, while the absolute number of women in films has steadily increased, the ratio of women to men has remained largely unchanged. A linear regression of this ratio yields a slope of 0, indicating no significant shift in relative female representation. However, the ratio of male and female actors to the number of movies produced tells a more nuanced story.
   The male ratio has generally fluctuated, indicating that for most of the analyzed period, there were consistently more male actors per movie compared to female actors. In contrast, the female ratio reflects a consistently lower number of female actors per film. Both trend lines suggest that the number of actors per movie has increased for both genders over the years, but the gap between male and female representation remains significant as confirmed by the pearson coefficient and the p-value. The intercept values of -8.15 for males and -6.14 for females further emphasize the historically low ratios of actors, especially for women, in earlier years.<br>
