@@ -28,8 +28,10 @@ title: "SARteam"
     </div>
   </div>
  
-  From the early 1900s to 2000, male actors consistently outnumbered female actors, with the gap increasing over time. Since the early 2000s, both male and female representation has improved, but women still remain behind. While recent growth in female representation indicates progress, the industry remains far from achieving gender balance.
+   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87e-05) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. This highlights the urgent need for more intentional and sustained efforts to foster equitable gender representation in the film industry.
   </p>
+
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   The goal now is to observe whether the ratio of women to men evolves over time. Note that the distribution of movies is uneven, with some years having significantly fewer movies represented in the dataset. This imbalance can introduce bias when analyzing trends. To ensure a fair and accurate analysis, we focus on years with a minimum of 500 movies, reducing the impact of data sparsity and providing a more reliable foundation for identifying patterns.
   </p>
