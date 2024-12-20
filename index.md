@@ -40,26 +40,18 @@ title: "SARteam"
   </p>
 
    <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87e-05) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. This highlights the urgent need for more intentional and sustained efforts to foster equitable gender representation in the film industry. While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
+  The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87x10<sup>-5</sup>) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. This highlights the urgent need for more intentional and sustained efforts to foster equitable gender representation in the film industry. While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
   </p>
   <section style="margin: 40px auto; text-align: center;">
   <h2 style="margin-bottom: 20px; color: #2c3e50;">Some Statistics: Actor Ratio per Movie</h2>
 
   <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
-
-    <!-- Male Pearson Coefficient -->
-    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;" 
-         title="The p-value of 1.71×10⁻²⁴ associated with this coefficient confirms that this trend is both strong and statistically significant.">
-      <i class="fa fa-male fa-2x" style="color: #000000;"></i>
-      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">0.8600</div>
-      <p class="count-text" style="color: #2c3e50;">Male Pearson Coefficient</p>
-    </div>
-
+  
     <!-- Female Pearson Coefficient -->
     <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" 
-         title="The p-value of 2.16×10⁻²⁹ associated with this coefficient confirms that this trend is both strong and statistically significant.">
+         title="The p-value of 3.87×10⁻⁵ associated with this coefficient confirms that this trend is both strong and statistically significant.">
       <i class="fa fa-female fa-2x" style="color: #000000;"></i>
-      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">0.8971</div>
+      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">0.491</div>
       <p class="count-text" style="color: #2c3e50;">Female Pearson Coefficient</p>
     </div>
 
@@ -104,15 +96,10 @@ title: "SARteam"
       <iframe src="assets/top_tropes_men.html" width="100%" height="500px" style="border: none;"></iframe>
     </div>
   </div>
-  
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-   Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
-   <br>
-   </p>
 
 <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-   Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the "dumb blonde," "brainless beauty," "valley girl," and "prima donna" emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like "Ophelia," "broken bird," and "chanteuse" depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
-   <br>
+   Cinema often relies on stereotypical portrayals that reinforce traditional gender biases. Tropes such as the dumb blonde, brainless beauty, valley girl, and prima donna  emphasize superficial qualities, reducing women to their looks or perceived lack of intelligence. Similarly, emotionally charged roles like ophelia, broken bird, and chanteuse depict women as fragile, overly emotional, or in need of rescue, perpetuating the notion that women lack emotional stability or independence. As a result, female characters are frequently defined by their personalities or relationships rather than their ambition, skills, or leadership.
+   
 </p>
 
 <section style="margin: 0px; display: flex; justify-content: space-between; gap: 30px; max-width: 1200px; margin-right: auto;">
@@ -120,7 +107,8 @@ title: "SARteam"
   <!-- Left-aligned Text -->
   <div style="flex: 1;">
     <p style="font-size: 1.2em; line-height: 1.6; margin: 0;">
-      The Chi-square statistic indicates a strong deviation from the expected frequency distribution of the tropes between different genders. The very small p-value of 5.6×10<sup>-42</sup> suggests that the result is statistically significant, meaning there is a highly significant association between the gender of the actor and the trope they portray. This means that the distribution of tropes across genders is not due to random chance, but rather there is a clear relationship between the two variables.
+      The chi-square statistic indicates a strong deviation from the expected frequency distribution of the tropes between different genders. The small p-value of 5.6×10<sup>-42</sup> suggests that
+      there is a highly significant association between the gender of the actor and the trope they portray. This means that the distribution of tropes across genders is not due to random chance, but rather there is a clear relationship between the two variables.
     </p>
   </div>
 
@@ -128,7 +116,7 @@ title: "SARteam"
   <div class="counter" 
        style="background-color: #eaeaea; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); max-width: 200px;" 
        title="The Chi-square statistic measures the deviation between observed and expected frequencies.">
-    <div class="count-title count-number" style="color: #2c3e50; font-size: 2.5em; font-weight: bold; margin: 0 0 10px 0;">370.63</div>
+    <div class="count-title count-number" style="color: #2c3e50; font-size: 2.5em; font-weight: bold; margin: 0 0 0px 0;">370.63</div>
     <p class="count-text" style="color: #2c3e50; font-weight: bold;">Chi-square Statistic</p>
   </div>
 
@@ -138,41 +126,42 @@ title: "SARteam"
 
 ### What is the Bechdel Test
 
-  <div style="margin: 20px 0; text-align: justify;">
-    <p><strong>Film Director:</strong> You might have heard of the <a href="https://bechdeltest.com/" target="_blank" rel="noopener noreferrer">Bechdel Test</a>, a simple yet powerful tool to assess gender representation in movies. Let me walk you through how it works:</p>
-    
-  <p>The Bechdel Test is based on three simple criteria:</p> 
-  <ol style="margin: 15px auto; padding-left: 20px; max-width: 1200px; list-style-position: outside; text-align: justify;"> 
-  <li>Does the film feature at least two named women?</li> 
-  <li>Do these women talk to each other?</li> 
-  <li>Do they discuss something other than a man?</li> 
-  </ol> 
-  
-  <p>While it might seem like a basic checklist, you'd be surprised at how many films fail to meet these criteria. Though the Bechdel Test doesn't capture every aspect of inclusivity, it provides valuable insights into how women are represented in films. Let's explore the results from different regions and years to see how films have evolved over time.</p> </div>
+ <div style="margin: 20px 0; text-align: justify; font-size: 1.2em; line-height: 1.6;">
+  <p><strong>Film Director:</strong> I’ve heard about this interesting metric called the Bechdel Test. It’s a great starting point to evaluate how inclusive a movie is when it comes to gender representation. Let me walk you through it:</p>
+
+  <p>The Bechdel Test is based on three simple criteria:</p>
+
+  <ol style="margin: 15px auto; padding-left: 20px; max-width: 1200px; list-style-position: outside; text-align: justify;">
+    <li>Does the film have at least two named women?</li>
+    <li>Do these women talk to each other?</li>
+    <li>Do they discuss something other than a man?</li>
+  </ol>
+
+  <p>While it might seem like a basic checklist, you'd be surprised at how many films fail to meet these criteria. Though the Bechdel Test doesn't capture every aspect of inclusivity, it provides valuable insights into how women are represented in films. Let's explore the results from different regions and years to see how films have evolved over time.</p>
+</div>
+
 
 ### Visualizing the Test's Results
-
+<p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
 Let's start by examining how the Bechdel Test scores have changed over the years.
-
-<div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1000px;">
-  <div style="flex: 1; max-width: 100%; text-align: center;">
-    <iframe src="assets/avg_bechdel_score_by_year.html" width="100%" height="500px" style="border: none;"></iframe>
-  </div>
-</div>
-
-<p>As we can see, before 1930, films generally scored below 2 on the Bechdel Test, meaning it was rare to have two named female characters discussing something other than men. The first film to score a 2 was "Manhandled," marking a significant milestone in gender representation. It was about time!</p> <br>
-
-<p>Next, let's take a look at how the results vary around the world.</p>
-
+</p>
 <div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 900px;">
   <div style="flex: 1; max-width: 100%; text-align: center;">
-    <iframe src="assets/average_bechdel_score_map.html" width="100%" height="450px" style="border: none;"></iframe>
+    <iframe src="assets/avg_bechdel_score_by_year.html" width="100%" height="400px" style="border: none;"></iframe>
   </div>
 </div>
-
-<p>However, be cautious when interpreting these results. Hovering over countries reveals that the U.S. has a disproportionately large number of films in the Bechdel Test database, which may skew the global representation.</p> <br>
-
-<div style="display: flex; justify-content: center; align-items: center; margin: 40px auto; max-width: 1000px;">
+<p style="font-size: 1.2em; line-height: 1.6; margin: px0 0;">
+As we can see, before 1930, films generally scored below 2 on the Bechdel Test, meaning it was rare to have two named female characters discussing something other than men. The first film to score a 2 was "Manhandled," marking a significant milestone in gender representation. It was about time!<br><br>
+Next, let's take a look at how the results vary around the world.
+</p> 
+<div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1200px;">
+  <div style="flex: 1; max-width: 100%; text-align: center;">
+    <iframe src="assets/average_bechdel_score_map.html" width="100%" height="600px" style="border: none;"></iframe>
+  </div>
+</div>
+<p style="font-size: 1.2em; line-height: 1.6; margin: 0px 0;">
+However, be cautious when interpreting these results. Hovering over countries reveals that the U.S. has a disproportionately large number of films in the Bechdel Test database, which may skew the global representation.</p> 
+<div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1000px;">
 
     <!-- Gender Distribution (Moved to the left side) -->
     <div style="flex: 1; max-width: 60%; display: flex; justify-content: center;">
@@ -188,9 +177,8 @@ Let's start by examining how the Bechdel Test scores have changed over the years
     </div>
     
 </div>
-
-
-<p>Now that we've looked at the Bechdel Test's evolution and its global representation, let's dive deeper into the relationship between a film's cast and its Bechdel Test score. Specifically, we will analyze how the proportion of female actresses in the main cast correlates with the film's Bechdel score.</p>
+<p style="font-size: 1.2em; line-height: 1.6; margin: 0px 0;" > 
+Now that we've looked at the Bechdel Test's evolution and its global representation, let's dive deeper into the relationship between a film's cast and its Bechdel Test score. Specifically, we will analyze how the proportion of female actresses in the main cast correlates with the film's Bechdel score.</p>
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1000px;">
   <div style="flex: 1; max-width: 100%; text-align: center;">
@@ -198,26 +186,24 @@ Let's start by examining how the Bechdel Test scores have changed over the years
   </div>
 </div>
 
-<p>Although the correlation between the Bechdel Test score and the proportion of female main cast members is modest, the extremely low p-value (10^-175) suggests that this relationship is statistically significant.</p>
-<p>Interestingly, we observe a film like "Sword of the Stranger," which has a Bechdel score of 3 but 0% female main characters. This indicates that a film can pass the Bechdel Test without having significant female presence in the main cast. This highlights the complexity of the Bechdel Test and how it doesn't always reflect the depth of female representation in a film.</p>
-
-<br />
-<br />
-
-<p>While passing the Bechdel Test is a useful first step, it’s crucial to think beyond the test. What truly matters is how meaningful the roles of women are in film. Let’s explore how we can create films that are not only inclusive but also genuinely empowering for women.</p>
+<p style="font-size: 1.2em; line-height: 1.6; margin: 0px 0;">
+Although the correlation between the Bechdel Test score and the proportion of female main cast members is modest, the extremely low p-value (10<sup>-175</sup>) suggests that this relationship is statistically significant.
+<br>
+Interestingly, we observe a film like "Sword of the Stranger," which has a Bechdel score of 3 but 0% female main characters. This indicates that a film can pass the Bechdel Test without having significant female presence in the main cast. This highlights the complexity of the Bechdel Test and how it doesn't always reflect the depth of female representation in a film.
+<br><br>
+While passing the Bechdel Test is a useful first step, it’s crucial to think beyond the test. What truly matters is how meaningful the roles of women are in film. Let’s explore how we can create films that are not only inclusive but also genuinely empowering for women.
+</p>
 
 # The Inclusivity Score
+<div style="margin: 20px 0; text-align: justify; font-size: 1.2em; line-height: 1.6;">
+  <p><strong>SAR team:</strong> Okay, this Bechdel Test is very interesting. However, if you create a movie with the intent of achieving a Bechdel score of 3, this is very easy. You just need to hire two women, name their character and write a two-line dialogue about something unrelated to men. Therefore, we aim to create a more meaningful metric to evaluate whether a movie is truly inclusive.</p>
+  </div>
 
-  <br />
-  <br />
-
-  <p> <strong>SAR team:</strong> Okay, this Bechdel Test is very interesting. However, if you create a movie with the intent of achieving a Bechdel score of 3, this is very easy. You just need to hire two women, name their character and write a two-line dialogue about something unrelated to men. Therefore, we aim to create a more meaningful metric to evaluate whether a movie is truly inclusive.</p><br><br>
-
-<p class="indent" style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+<p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   The Bechdel score provides a solid foundation for developing an inclusivity metric. To build on this, we also evaluate the proportion of actresses in the movie to assess the level of female representation. However, this alone is insufficient. A movie may feature many women in minor or background roles, or conversely, a single actress who takes on the lead role. Therefore, we also consider the share of the script attributed to actresses to capture their meaningful presence in the film.
 </p>
 
-<p class="indent" style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+<p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   Indeed, looking at the distribution of the script in the figure below provided by <a href="https://pudding.cool/2017/03/film-dialogue/" target="_blank" rel="noopener noreferrer">The Pudding</a>, only 24% of movies show an equal or more female distribution of the script!
 </p>
 
@@ -251,7 +237,7 @@ Let's start by examining how the Bechdel Test scores have changed over the years
   {% include movie_dashboard.html %}
 
   <p>
-    Indeed, when examining movies ranked by either their inclusivity or their success scores, we observe a potential negative correlation between inclusivity and success. Specifically, less inclusive movies appear to be more successful compared to their more inclusive counterparts. However, when looking at movies ranked by their success, the connection between success and low inclusivity becomes less apparent: some of the least successful movies have low inclusivity scores, while several successful movies demonstrate good inclusivity. That said, the very top-performing movies tend to remain relatively uninclusive. Further statistical analyses using both Pearson and Spearman correlation analyses provides a reassuring perspective, as the results indicate only a weak negative correlation. The Pearson correlation coefficient is -0.125 (p-value = 6.82e-05), and the Spearman correlation coefficient is -0.126 (p-value = 6.33e-05). While the low p-values indicate the results are statistically significant, the correlation coefficients are close to zero, signifying a very weak association. This suggests no meaningful evidence of inclusivity negatively impacting a movie's success.
+    Indeed, when examining movies ranked by either their inclusivity or their success scores, we observe a potential negative correlation between inclusivity and success. Specifically, less inclusive movies appear to be more successful compared to their more inclusive counterparts. However, when looking at movies ranked by their success, the connection between success and low inclusivity becomes less apparent: some of the least successful movies have low inclusivity scores, while several successful movies demonstrate good inclusivity. That said, the very top-performing movies tend to remain relatively uninclusive. Further statistical analyses using both Pearson and Spearman correlation analyses provides a reassuring perspective, as the results indicate only a weak negative correlation. The Pearson correlation coefficient is -0.125 (p-value = 6.82x10<sup>-05</sup>), and the Spearman correlation coefficient is -0.126 (p-value = 6.33x10<sup>-05</sup>). While the low p-values indicate the results are statistically significant, the correlation coefficients are close to zero, signifying a very weak association. This suggests no meaningful evidence of inclusivity negatively impacting a movie's success.
   </p>
 
   <p>
@@ -278,37 +264,22 @@ Let's start by examining how the Bechdel Test scores have changed over the years
     $$
   </div>
 
-  <p>Here, \( a_{1} \) and \( a_{2} \) are constants. In our case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. This choice seems reasonable since the correlation of the ranking and the revenue is relatively weak (Pearson correlation = 0.273, p-value = 1.66e-62; Spearman correlation = 0.271, p-value = 1.01e-61), suggesting that the two metrics capture distinct and independent aspects of success. However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.</p>
+  <p>Here, \( a_{1} \) and \( a_{2} \) are constants. In our case, we set \( a_{1} = a_{2} = 0.5 \), as we consider both rating and revenue equally important. This choice seems reasonable since the correlation of the ranking and the revenue is relatively weak (Pearson correlation = 0.273, p-value = 1.66<sup>-62</sup>; Spearman correlation = 0.271, p-value = 1.01<sup>-61</sup>), suggesting that the two metrics capture distinct and independent aspects of success. However, if someone wanted to prioritize either revenue or rating, the constants could be adjusted accordingly.</p>
 
-  <p>Using the rank of revenue and rating ensures equal weighting between the two metrics, even if the revenue values are significantly large. For example, a movie with the highest revenue in the dataset will have rank(Net Box Office Revenue) = 1. However, if it is the lowest-rated movie, regardless of how large its revenue is, rank(Rating) = 0. In this case, the success metric would be 0.5. This ranking approach prevents the success metric from being disproportionately influenced by very high revenue figures, ensuring that both factors contribute fairly to the final score.</p>
+  <p>Using the rank of revenue and rating ensures equal weighting between the two metrics, even if the revenue values are significantly large. For example, a movie with the highest revenue in the dataset will have rank (Net Box Office Revenue) = 1. However, if it is the lowest-rated movie, regardless of how large its revenue is, rank (Rating) = 0. In this case, the success metric would be 0.5. This ranking approach prevents the success metric from being disproportionately influenced by very high revenue figures, ensuring that both factors contribute fairly to the final score.</p>
 </div>
 
-  <br />
-  <br />
-
-  <br />
-  <br />
-
-  <p>Now that we have defined the success metric, we decided to process our data using a decision tree. This approach helps us identify key features for predicting the success metric. To represent this method, we used a Sankey diagram, where nodes correspond to feature-based decision points (e.g., runtime, proportion of actresses, etc.), and links show the flow of samples satisfying those conditions. Each node displays a condition and its associated success score, providing insight into how the model predicts different outcomes. Features higher in the tree (closer to the left), like "Runtime" and "proportion_actress," are the most influential.</p>
+  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">Now that we have defined the success metric, we decided to process our data using a decision tree. This approach helps us identify key features for predicting the success metric. To represent this method, we used a Sankey diagram, where nodes correspond to feature-based decision points (e.g., runtime, proportion of actresses, etc.), and links show the flow of samples satisfying those conditions. Each node displays a condition and its associated success score, providing insight into how the model predicts different outcomes. Features higher in the tree (closer to the left), like "Runtime" and "proportion_actress," are the most influential.</p>
 
   <div class="sankey-container">
     {% include sankey_diagram.html %}
   </div>
 
-  <br />
-  <br />
-
-  <br />
-  <br />
-
   <h1 id="the-success-metric">Some trivia</h1>
 
-  <p class="indent"> Now that we have defined all our metrics and scores, you can now search for your favorite movie and see what score it has on those different metrics. You might be shocked of the results !
+  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  Now that we have defined all our metrics and scores, you can now search for your favorite movie and see what score it has on those different metrics. You might be shocked of the results !
   </p>
-
-  </p>
-  <p><br />
-  <br /></p>
 
   <!-- Search Widget -->
   <div class="search-widget">
@@ -326,7 +297,7 @@ Let's start by examining how the Bechdel Test scores have changed over the years
    Achieving inclusivity in storytelling relies not just on character roles but also on the language and emotional contexts within narratives
    By examining language, character roles, and emotional contexts, we have identified key factors that contribute to achieving inclusivity in storytelling. These insights can help guide the creation of narratives that resonate with modern audiences and promote authentic representation of women.
    <br>
-   We analyzed various lexical categories, such as affection, joy, sadness, and sexist language—and their correlation with inclusivity scores.
+   We analyzed various lexical categories, such as affection, joy, sadness, and sexist language and their correlation with inclusivity scores.
    <br>
   </p>
   <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
@@ -341,7 +312,6 @@ Let's start by examining how the Bechdel Test scores have changed over the years
    <br>
    </p>
  
- <h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
 <h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
 
 <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap;">
@@ -396,11 +366,8 @@ Let's start by examining how the Bechdel Test scores have changed over the years
 
 </div>
 
-
-
-
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-  By understanding how different lexical categories affect inclusivity, producers can strategically adjust language to craft respectful and uplifting stories. Our gender context statistics underscore this point: male-context summaries dominate at 47.8%, while female-context summaries lag at 31%- These imbalances highlight the need for more authentic female representation. Importantly, female-context narratives achieve higher inclusivity scores (50%) compared to male (38%) and neutral contexts (41%).
+  By understanding how different lexical categories affect inclusivity, producers can strategically adjust language to craft respectful and uplifting stories. Our gender context statistics underscore this point: male-context summaries dominate at 47.8%, while female-context summaries lag at 31%. These imbalances highlight the need for more authentic female representation. Importantly, female-context narratives achieve higher inclusivity scores (50%) compared to male (38%) and neutral contexts (41%).
   </p>
 
   <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
@@ -414,13 +381,13 @@ Let's start by examining how the Bechdel Test scores have changed over the years
    This does not mean professional or independent traits are inherently detrimental. Rather, our data suggests that higher inclusivity is achieved when stories blend personal growth, emotional depth, and supportive environments. To create truly inclusive and impactful female-led narratives, filmmakers must address both the quantity and quality of female representation. Including women in professional roles—such as scientists, lawyers, and leaders is vital, but a single professional female character can feel tokenistic. 
    For a balanced and authentic portrayal, multiple female characters should appear in professional, action-oriented, and leadership roles. When women are shown collaborating, leading, and contributing significantly, it reinforces that competence, agency, and leadership are intrinsic to their identities, not exceptions. Furthermore, these roles should be enriched with emotionally compelling story arcs, showcasing personal growth and meaningful relationships. This balance creates well-rounded, relatable characters that resonate with audiences, making the narrative more engaging, realistic, and inclusive.
   </p>
-  <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
+  <div style="display: flex; justify-content: center; align-items: center; margin: 0px 0;">
   <!-- word cloud -->
-  <div style="width: 100%; max-width: 1000px; text-align: center;">
-    <iframe src="assets\word_cloud.html" width="100%" height="600px" style="border: none;"></iframe>
+  <div style="width: 100%; max-width: 1200px; text-align: center;">
+    <iframe src="assets\word_cloud.html" width="100%" height="620px" style="border: none;"></iframe>
   </div>
   </div>
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  <p style="font-size: 1.2em; line-height: 1.6; margin: 0px 0;">
  The word cloud visualizes the most frequently used words in highly inclusive movie summaries. Dominant terms like "mother," "wife," "escape," "discover," "lead," and "fight" suggest that inclusive narratives depict women in a blend of familial roles and action-oriented roles. These characters are not just mothers or wives; they are also leaders, survivors, and active agents in their stories. This combination of relational depth and empowerment creates well-rounded, relatable characters.  The presence of relational roles alongside assertive actions suggests these stories recognize women as whole, multifaceted beings, capable leaders, courageous survivors, loving partners, and active contributors to the plot’s progression.
  Highly inclusive storytelling fuses relational depth with empowerment, autonomy, and purposeful actions, making characters both relatable and inspiring<br>
  </p>
@@ -428,9 +395,9 @@ Let's start by examining how the Bechdel Test scores have changed over the years
  We have decide to create a word co-occurrence network which will help us visualize relationships between frequently occurring words in female-led movie summaries with high inclusivity scores. Each node represents a unique word, and the size of the node is proportional to the number of connections that word has with others. Words that appear together frequently are connected by edges. Hover over each node to see the word and the number of connections, and hover over the edges to see the co-occurrence frequency between word pairs. The network allows you to identify clusters of related words, which can reveal patterns or themes in the text. 
  <br>
  </p>
- <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
+ <div style="display: flex; justify-content: center; align-items: center; margin: 0px 0;">
   <!-- word network -->
-  <div style="width: 80%; max-width: 2600px; text-align: center;">
+  <div style="width: 70%; max-width: 3500px; text-align: center;">
     <iframe src="assets/wordnetwork.html" width="100%" height="1100px" style="border: none;"></iframe>
   </div>
   </div>
