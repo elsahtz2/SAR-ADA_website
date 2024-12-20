@@ -71,29 +71,37 @@ title: "SARteam"
   <section style="margin: 40px auto; text-align: center;">
   <h2 style="margin-bottom: 20px; color: #2c3e50;">Some Statistics: Actor Ratio per Movie</h2>
 
-  <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
-  
-    <!-- Female Pearson Coefficient -->
-    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" 
-         title="The p-value of 3.87×10⁻⁵ associated with this coefficient confirms that this trend is both strong and statistically significant.">
-      <i class="fa fa-female fa-2x" style="color: #000000;"></i>
-      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">0.491</div>
-      <p class="count-text" style="color: #2c3e50;">Female Pearson Coefficient</p>
-    </div>
+<div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
 
-    <!-- Male Actors per Movie -->
-    <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;">
-      <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
-      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">8.27</div>
-      <p class="count-text" style="color: #2c3e50;">Average male main Actors per Movie</p>
-    </div>
+  <!-- Female Pearson Coefficient -->
+  <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;" 
+       title="The p-value of 3.87×10⁻⁵ associated with this coefficient confirms that this trend is both strong and statistically significant.">
+    <i class="fa fa-female fa-2x" style="color: #000000;"></i>
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">0.491</div>
+    <p class="count-text" style="color: #2c3e50;">
+      Pearson Coefficient for correlation  <br> between years and actress proportion
+    </p>
+  </div>
 
-    <!-- Female Actors per Movie -->
-    <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;">
-      <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
-      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">2.70</div>
-      <p class="count-text" style="color: #2c3e50;">Average female main Actresses per Movie</p>
-    </div>
+  <!-- Male Actors per Movie -->
+  <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;"
+    title="This value is when considering the main characters only">
+    <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">8.27</div>
+    <p class="count-text" style="color: #2c3e50;">
+      Average main Actors <br> per Movie
+    </p>
+  </div>
+
+  <!-- Female Actors per Movie -->
+  <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;"
+    title="This value is when considering the main characters only">
+    <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
+    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">2.70</div>
+    <p class="count-text" style="color: #2c3e50;">
+      Average main Actresses <br> per Movie
+    </p>
+  </div>
 
   </div>
 </section>
