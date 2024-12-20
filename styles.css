@@ -13,11 +13,11 @@
 /* Hero Banner Section */
 .hero-banner {
   font-family: "Didot", serif;
+  font-style: bold;
   position: relative;
   width: 100%;
-  height: 450px; /* Adjust the height as needed */
-  /*background-image: url('assets/img/testfond.png');*/
-  background-color: #121111;
+  height: 400px; /* Adjust the height as needed */
+  background-image: url('../img/HImage.jpg');
   background-size: cover;
   background-position: center;
   color: white; /* Ensure text is visible */
@@ -37,6 +37,7 @@
 
 /* Hero Subtext Section (Team and Names) */
 .hero-subtext {
+  font-style: bold ;
   position: absolute; /* Position it relative to the hero-banner */
   bottom: 20px; /* Move it 20px from the bottom of the banner */
   text-align: center;
