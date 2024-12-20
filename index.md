@@ -2,9 +2,34 @@
 layout: default
 title: "SARteam"
 ---
+<!-- Main Chat Section -->
+<div class="chat-container" style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
 
+  <!-- Marine's Message (Left) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div class="contact-picture" style="margin-right: 10px;">
+      <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
+    </div>
+    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 70%;">
+      For over a century, cinema has shaped how we see the world, crafting our stories and reflecting our cultures. Yet, the way women are written remains trapped in the past. I’ve been a producer in this industry for over a decade and I remember standing backstage at the Oscars ceremony when a director remarked, “There just aren’t enough compelling stories with women leads.” How can we say that when we've barely allowed women to be anything but the mother, the wife, the lover?<br><br>
+      I’m done watching brilliant actresses confined to clichés. I want to create movies where women drive the story, stories where they’re not just present but pivotal. It’s time to break free from the old narrative!
+    </div>
+  </div>
 
-<div style="display: flex; justify-content: center; align-items: center; margin: 60px auto; max-width: 1000px; flex-wrap: wrap;">
+  <!-- SAR's Message (Right) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
+    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 70%; text-align: left;">
+      We’re here to help you turn your vision into reality! Through our analysis, we will help you create a movie that not only shines at the box office but sets a new benchmark for equality in cinema. We'll guide you through the key ingredients for crafting a movie that is as inclusive as it is successful. Because while inclusivity is the mission, success is the name of the game and our recommendations are designed to deliver both.<br><br>
+      So, let’s pull back the curtain on the current industry and explore the challenges that stand between you and a truly groundbreaking, inclusive movie. Together, let’s rewrite the narrative...
+    </div>
+    <div class="contact-picture" style="margin-left: 10px;">
+      <img src="assets/img/SAR.png" alt="SAR" style="width: 100px; height: 100px; border-radius: 50%;">
+    </div>
+  </div>
+
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1000px; flex-wrap: wrap;">
 
   <!-- Heading Section -->
   <div style="width: 100%; margin-bottom: 20px;">
@@ -124,11 +149,35 @@ title: "SARteam"
 
 # The Bechdel Test
 
+
+<!-- Main Chat Section -->
+<div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <!-- Marine's Message (Left) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div class="contact-picture" style="margin-right: 10px;">
+      <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
+    </div>
+    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+      I’ve heard about this interesting metric called the Bechdel Test.
+    </div>
+  </div>
+
+  <!-- SAR's Message (Right) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
+    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+      It’s a great starting point to evaluate how inclusive a movie is when it comes to gender representation. Let us walk you through it:
+    </div>
+    <div class="contact-picture" style="margin-left: 10px;">
+      <img src="assets/img/SAR.png" alt="SAR" style="width: 100px; height: 100px; border-radius: 50%;">
+    </div>
+  </div>
+
+</div>
+
+
 ### What is the Bechdel Test
-
- <div style="margin: 20px 0; text-align: justify; font-size: 1.2em; line-height: 1.6;">
-  <p><strong>Film Director:</strong> I’ve heard about this interesting metric called the Bechdel Test. It’s a great starting point to evaluate how inclusive a movie is when it comes to gender representation. Let me walk you through it:</p>
-
+<div style="margin: 20px 0; text-align: justify; font-size: 1.2em; line-height: 1.6;">
   <p>The Bechdel Test is based on three simple criteria:</p>
 
   <ol style="margin: 15px auto; padding-left: 20px; max-width: 1200px; list-style-position: outside; text-align: justify;">
@@ -195,11 +244,35 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 </p>
 
 # The Inclusivity Score
-<div style="margin: 20px 0; text-align: justify; font-size: 1.2em; line-height: 1.6;">
-  <p><strong>SAR team:</strong> Okay, this Bechdel Test is very interesting. However, if you create a movie with the intent of achieving a Bechdel score of 3, this is very easy. You just need to hire two women, name their character and write a two-line dialogue about something unrelated to men. Therefore, we aim to create a more meaningful metric to evaluate whether a movie is truly inclusive.</p>
+
+<!-- Main Chat Section -->
+<div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <!-- Marine's Message (Left) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div class="contact-picture" style="margin-right: 10px;">
+      <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
+    </div>
+    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+      This Bechdel Test is very interesting. However, if I create a movie with the intent of achieving a Bechdel score of 3, this is very easy. I just need to hire two women, name their character, and write a two-line dialogue about something unrelated to men.
+    </div>
   </div>
 
-<p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+  <!-- SAR's Message (Right) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
+    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+      Yes, you are right. Hence, we can create a more meaningful metric to help you evaluate whether a movie is truly inclusive!
+    </div>
+    <div class="contact-picture" style="margin-left: 10px;">
+      <img src="assets/img/SAR.png" alt="SAR" style="width: 100px; height: 100px; border-radius: 50%;">
+    </div>
+  </div>
+
+</div>
+
+
+
+<p style="font-size: 1.2em; line-height: 1.6; margin: 20px 0;">
   The Bechdel score provides a solid foundation for developing an inclusivity metric. To build on this, we also evaluate the proportion of actresses in the movie to assess the level of female representation. However, this alone is insufficient. A movie may feature many women in minor or background roles, or conversely, a single actress who takes on the lead role. Therefore, we also consider the share of the script attributed to actresses to capture their meaningful presence in the film.
 </p>
 
@@ -230,27 +303,73 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 
   <p>This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test.</p>
 
-  <p>
-    <strong>Producer:</strong> This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores all have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.
-  </p>
+  
+<!-- Main Chat Section -->
+<div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <!-- Marine's Message (Left) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div class="contact-picture" style="margin-right: 10px;">
+      <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
+    </div>
+    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+      This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores all have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.
+    </div>
+  </div>
+
+</div>
 
   {% include movie_dashboard.html %}
 
-  <p>
+  <p style="font-size: 1.2em; line-height: 1.6; margin: 0px 0;">
     Indeed, when examining movies ranked by either their inclusivity or their success scores, we observe a potential negative correlation between inclusivity and success. Specifically, less inclusive movies appear to be more successful compared to their more inclusive counterparts. However, when looking at movies ranked by their success, the connection between success and low inclusivity becomes less apparent: some of the least successful movies have low inclusivity scores, while several successful movies demonstrate good inclusivity. That said, the very top-performing movies tend to remain relatively uninclusive. Further statistical analyses using both Pearson and Spearman correlation analyses provides a reassuring perspective, as the results indicate only a weak negative correlation. The Pearson correlation coefficient is -0.125 (p-value = 6.82x10<sup>-05</sup>), and the Spearman correlation coefficient is -0.126 (p-value = 6.33x10<sup>-05</sup>). While the low p-values indicate the results are statistically significant, the correlation coefficients are close to zero, signifying a very weak association. This suggests no meaningful evidence of inclusivity negatively impacting a movie's success.
   </p>
 
-  <p>
-    <strong>SAR team:</strong> You can be reassured, if your movie is good, prioritizing inclusivity will not harm its success. However, there is still significant progress to be made before inclusivity becomes the norm in movie industry. While we would expect that inclusivity positively contributes to a movie’s success, we are far from it. Achieving this will require continued efforts, such as better representation of women in storytelling and active advocacy within the industry.
-  </p>
+
+<!-- Main Chat Section -->
+<div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <!-- SAR's Message (Right) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
+    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+      You can be reassured, if your movie is good, prioritizing inclusivity will not harm its success. However, there is still significant progress to be made before inclusivity becomes the norm in the movie industry. While we would expect that inclusivity positively contributes to a movie’s success, we are far from it. Achieving this will require continued efforts, such as better representation of women in storytelling and active advocacy within the industry.
+    </div>
+    <div class="contact-picture" style="margin-left: 10px;">
+      <img src="assets/img/SAR.png" alt="SAR" style="width: 100px; height: 100px; border-radius: 50%;">
+    </div>
+  </div>
+</div>
 </div>
 
-
 # The Success Metric
-<div style="font-size: 1.2em; line-height: 1.6; margin: 40px 0; text-align: justify;">
-  <p><strong>Producer:</strong> Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie.</p>
 
-  <p>Defining what constitutes the success of a movie is not an easy task. Naturally, we want the movie to generate as much revenue as possible, but we also consider it equally important for the movie to be appreciated by the audience. To capture this balance, we introduce a success metric:</p>
+
+<!-- Main Chat Section -->
+<div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <!-- Marine's Message (Left) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div class="contact-picture" style="margin-right: 10px;">
+      <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
+    </div>
+    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+      Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie.
+    </div>
+  </div>
+
+  <!-- SAR's Message (Right) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
+    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+      Defining what constitutes the success of a movie is not an easy task, but we will take up this challenge !
+    </div>
+    <div class="contact-picture" style="margin-left: 10px;">
+      <img src="assets/img/SAR.png" alt="SAR" style="width: 100px; height: 100px; border-radius: 50%;">
+    </div>
+  </div>
+
+</div>
+<div style="font-size: 1.2em; line-height: 1.6; margin: 0px 0; text-align: justify;">
+  <p> Naturally, we want the movie to generate as much revenue as possible, but we also consider it equally important for the movie to be appreciated by the audience. To capture this balance, we introduce a success metric:</p>
 
   <div style="text-align: center; margin: 20px 0;">
     $$
