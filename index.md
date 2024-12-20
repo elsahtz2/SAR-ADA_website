@@ -2,6 +2,7 @@
 layout: default
 title: "SARteam"
 ---
+
 <!-- Main Chat Section -->
 <div class="chat-container" style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
 
@@ -83,20 +84,19 @@ title: "SARteam"
     <!-- Male Actors per Movie -->
     <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px;">
       <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
-      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">2.25</div>
-      <p class="count-text" style="color: #2c3e50;">Male Actors per Movie</p>
+      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">8.27</div>
+      <p class="count-text" style="color: #2c3e50;">Average male main Actors per Movie</p>
     </div>
 
     <!-- Female Actors per Movie -->
     <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px;">
       <i class="fa fa-chart-line fa-2x" style="color: #000000;"></i>
-      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">1.00</div>
-      <p class="count-text" style="color: #2c3e50;">Female Actors per Movie</p>
+      <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">2.70</div>
+      <p class="count-text" style="color: #2c3e50;">Average female main Actresses per Movie</p>
     </div>
 
   </div>
 </section>
-
 
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   This persistent imbalance raises important questions about the types of roles women are cast in and how their stories are represented within various film genres. To further explore this, we examined the prevalence of female protagonists across the most frequent movie genres, aiming to understand where progress is being made and where more work is needed. 
@@ -149,7 +149,6 @@ title: "SARteam"
 
 # The Bechdel Test
 
-
 <!-- Main Chat Section -->
 <div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
 
@@ -175,8 +174,8 @@ title: "SARteam"
 
 </div>
 
-
 ### What is the Bechdel Test
+
 <div style="margin: 20px 0; text-align: justify; font-size: 1.2em; line-height: 1.6;">
   <p>The Bechdel Test is based on three simple criteria:</p>
 
@@ -189,8 +188,8 @@ title: "SARteam"
   <p>While it might seem like a basic checklist, you'd be surprised at how many films fail to meet these criteria. Though the Bechdel Test doesn't capture every aspect of inclusivity, it provides valuable insights into how women are represented in films. Let's explore the results from different regions and years to see how films have evolved over time.</p>
 </div>
 
-
 ### Visualizing the Test's Results
+
 <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
 Let's start by examining how the Bechdel Test scores have changed over the years.
 </p>
@@ -216,7 +215,7 @@ However, be cautious when interpreting these results. Hovering over countries re
     <div style="flex: 1; max-width: 60%; display: flex; justify-content: center;">
       <iframe src="assets/bechdel_countries_piechart.html" width="90%" height="550px" style="border: none;"></iframe>
     </div>
-    
+
     <!-- Text Section (Moved to the right side) -->
     <div style="flex: 1; padding-left: 40px; max-width: 40%; display: flex; align-items: center;">
       <p style="line-height: 1.8; font-size: 1.2em; margin: 0;">
@@ -224,7 +223,7 @@ However, be cautious when interpreting these results. Hovering over countries re
         As expected, 80% of the films come from the United States. This heavy U.S. representation means we should be cautious when interpreting the Bechdel scores for other countries. Drawing sociological conclusions about women's status in cinema based on global data would be premature, as many countries are underrepresented. Our study, therefore, will focus on U.S. films for more reliable conclusions.
       </p>
     </div>
-    
+
 </div>
 <p style="font-size: 1.2em; line-height: 1.6; margin: 0px 0;" > 
 Now that we've looked at the Bechdel Test's evolution and its global representation, let's dive deeper into the relationship between a film's cast and its Bechdel Test score. Specifically, we will analyze how the proportion of female actresses in the main cast correlates with the film's Bechdel score.</p>
@@ -270,8 +269,6 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 
 </div>
 
-
-
 <p style="font-size: 1.2em; line-height: 1.6; margin: 20px 0;">
   The Bechdel score provides a solid foundation for developing an inclusivity metric. To build on this, we also evaluate the proportion of actresses in the movie to assess the level of female representation. However, this alone is insufficient. A movie may feature many women in minor or background roles, or conversely, a single actress who takes on the lead role. Therefore, we also consider the share of the script attributed to actresses to capture their meaningful presence in the film.
 </p>
@@ -279,7 +276,6 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   Indeed, looking at the distribution of the script in the figure below provided by <a href="https://pudding.cool/2017/03/film-dialogue/" target="_blank" rel="noopener noreferrer">The Pudding</a>, only 24% of movies show an equal or more female distribution of the script!
 </p>
-
 
   <br>
   <div style="width: 100%; height: 100vh; overflow: hidden;">
@@ -303,7 +299,6 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 
   <p>This approach ensures a more comprehensive and meaningful evaluation of inclusivity in movies, moving beyond the simplicity of the Bechdel Test.</p>
 
-  
 <!-- Main Chat Section -->
 <div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
 
@@ -319,12 +314,11 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 
 </div>
 
-  {% include movie_dashboard.html %}
+{% include movie_dashboard.html %}
 
   <p style="font-size: 1.2em; line-height: 1.6; margin: 0px 0;">
     Indeed, when examining movies ranked by either their inclusivity or their success scores, we observe a potential negative correlation between inclusivity and success. Specifically, less inclusive movies appear to be more successful compared to their more inclusive counterparts. However, when looking at movies ranked by their success, the connection between success and low inclusivity becomes less apparent: some of the least successful movies have low inclusivity scores, while several successful movies demonstrate good inclusivity. That said, the very top-performing movies tend to remain relatively uninclusive. Further statistical analyses using both Pearson and Spearman correlation analyses provides a reassuring perspective, as the results indicate only a weak negative correlation. The Pearson correlation coefficient is -0.125 (p-value = 6.82x10<sup>-05</sup>), and the Spearman correlation coefficient is -0.126 (p-value = 6.33x10<sup>-05</sup>). While the low p-values indicate the results are statistically significant, the correlation coefficients are close to zero, signifying a very weak association. This suggests no meaningful evidence of inclusivity negatively impacting a movie's success.
   </p>
-
 
 <!-- Main Chat Section -->
 <div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
@@ -342,7 +336,6 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 </div>
 
 # The Success Metric
-
 
 <!-- Main Chat Section -->
 <div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
