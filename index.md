@@ -565,19 +565,12 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
     <h2 style="color: #000000;">To conclude</h2>
   </div>
 
-  <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
-    <!-- Actor ratio per movie over the years -->
-    <div style="width: 100%; max-width: 1000px; text-align: center;">
-      <iframe src="assets/inclusivity_years.html" width="100%" height="600px" style="border: none;"></iframe>
-    </div>
-  </div>
-
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-Looking at the evolution of the average inclusivity score of movies since the 80s (we kept only years with at least 10 different movies which is still a low number to draw conclusion but the available data is unfortunatly limited) we can see that there is a lot of fluctuation but no evidence of improvement. Pearson correlation coefficient: 0.086, p-value: 0.645<br>
- </p>
  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
-taking 20 films/year minimum, improvements since the 90s: Pearson correlation coefficient: 0.443, p-value: 0.034 <br>
+ The data is clear: the statistics reveal a persistent imbalance in women’s representation in cinema. Despite improvements, the proportion of actresses in main casts remains just 38%, and the Bechdel Test continues to highlight films where women’s voices are absent.<br> Our Inclusivity Score, combining script distribution, character promotion, and dialogue analysis shows that films with higher inclusivity often strike a balance between professional roles and emotional depth. Meanwhile, the Success Metric demonstrates that inclusivity does not impact a film's box office performance or audience appreciation, with correlation coefficients pointing to only a weak negative relationship between inclusivity and success.<br>
+The numbers tell us that success and inclusivity are not mutually exclusive, they can, and should, coexist. By addressing these metrics, filmmakers have the power to craft stories that are commercially successful and authentically inclusive. Let’s use these insights to redefine storytelling, ensuring the details of representation reflect a future where women are empowered, and integral to the evolution of the cinema.
+  <br>
  </p>
+  
  
  <!-- Producer's Conclusion (Left) -->
 <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
