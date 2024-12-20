@@ -316,7 +316,7 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
       <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
     </div>
     <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
-      This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores all have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.
+      This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores often have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.
     </div>
   </div>
 
@@ -528,4 +528,30 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
  Additionally, diversifying the ethnic backgrounds, ages, and body types of female characters enhances authenticity and broadens appeal. Representation of women in leadership or decision-making roles not only 
  promotes inclusivity but also connects with contemporary themes of empowerment and equality. Finally, for success, ensure that these stories are woven into compelling narratves with strong plot development, relatable challenges, and emotional resonance. Inclusive movies that celebrate diversity and 
  authenticity without sacrificing quality storytelling have the potential to achieve both critical acclaim and commercial success.<br>
+ </p>
+
+  <div style="width: 100%; margin-bottom: 20px;">
+    <h2 style="color: #000000;">To conclude</h2>
+  </div>
+
+  <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
+    <!-- Actor ratio per movie over the years -->
+    <div style="width: 100%; max-width: 1000px; text-align: center;">
+      <iframe src="assets/inclusivity_years.html" width="100%" height="600px" style="border: none;"></iframe>
+    </div>
+  </div>
+
+  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+Looking at the evolution of the average inclusivity score of movies since the 80s (we kept only years with at least 10 different movies which is still a low number to draw conclusion but the available data is unfortunatly limited) we can see that there is a lot of fluctuation but no evidence of improvement. Pearson correlation coefficient: 0.086, p-value: 0.645<br>
+ </p>
+
+  <div style="display: flex; justify-content: center; align-items: center; margin: 60px 0;">
+    <!-- Actor ratio per movie over the years -->
+    <div style="width: 100%; max-width: 1000px; text-align: center;">
+      <iframe src="assets/inclusivity_years90.html" width="100%" height="600px" style="border: none;"></iframe>
+    </div>
+  </div>
+
+ <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+taking 20 films/year minimum, improvements since the 90s: Pearson correlation coefficient: 0.443, p-value: 0.034 <br>
  </p>
