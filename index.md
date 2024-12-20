@@ -4,39 +4,36 @@ title: "SARteam"
 ---
 
 <!-- Main Chat Section -->
-<div class="chat-container" style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+<div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
 
   <!-- Marine's Message (Left) -->
   <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-    <div class="contact-picture" style="margin-right: 10px;">
-      <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
+    <div class="contact-picture" style="margin-right: 20px;">
+      <img src="assets/img/productrice.png" alt="Marine" style="width: 120px; height: 120px; border-radius: 30%;">
     </div>
-    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 70%;">
+    <div class="chat-bubble" style="background-color:rgb(255, 247, 230); padding: 20px; border-radius: 10px; max-width: 85%; width: 100%;">
       For over a century, cinema has shaped how we see the world, crafting our stories and reflecting our cultures. Yet, the way women are written remains trapped in the past. I’ve been a producer in this industry for over a decade and I remember standing backstage at the Oscars ceremony when a director remarked, “There just aren’t enough compelling stories with women leads.” How can we say that when we've barely allowed women to be anything but the mother, the wife, the lover?<br><br>
       I’m done watching brilliant actresses confined to clichés. I want to create movies where women drive the story, stories where they’re not just present but pivotal. It’s time to break free from the old narrative!
     </div>
   </div>
 
   <!-- SAR's Message (Right) -->
-  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
-    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 70%; text-align: left;">
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 40px; justify-content: flex-end;">
+    <div class="chat-bubble" style="background-color: #ffebc4; padding: 20px; border-radius: 10px; max-width: 85%; width: 100%; text-align: left;">
       We’re here to help you turn your vision into reality! Through our analysis, we will help you create a movie that not only shines at the box office but sets a new benchmark for equality in cinema. We'll guide you through the key ingredients for crafting a movie that is as inclusive as it is successful. Because while inclusivity is the mission, success is the name of the game and our recommendations are designed to deliver both.<br><br>
       So, let’s pull back the curtain on the current industry and explore the challenges that stand between you and a truly groundbreaking, inclusive movie. Together, let’s rewrite the narrative...
     </div>
-    <div class="contact-picture" style="margin-left: 10px;">
-      <img src="assets/img/SAR.png" alt="SAR" style="width: 100px; height: 100px; border-radius: 50%;">
+    <div class="contact-picture" style="margin-left: 20px;">
+      <img src="assets/img/SAR.png" alt="SAR" style="width: 120px; height: 120px; border-radius: 50%;">
     </div>
   </div>
 
 </div>
 
+
+# Behind the curtain: The current state of women in cinema
+
 <div style="display: flex; justify-content: center; align-items: center; margin: 0px auto; max-width: 1000px; flex-wrap: wrap;">
-
-  <!-- Heading Section -->
-  <div style="width: 100%; margin-bottom: 20px;">
-    <h2 style="color: #000000;">Behind the curtain: The current state of women in cinema</h2>
-  </div>
-
   <!-- Text Section -->
   <div style="flex: 1; padding-right: 40px; max-width: 50%; display: flex; align-items: center; box-sizing: border-box;">
     <p style="line-height: 1.8; font-size: 1.2em; margin: 0;">
@@ -69,7 +66,7 @@ title: "SARteam"
   The evolution of the proportion of actresses in main casts over the years reveals notable fluctuations, but a gradual improving trend has been observed since 1960. The correlation between years and actress proportion (Pearson correlation = 0.491, p-value = 3.87x10<sup>-5</sup>) indicates a statistically significant, moderate positive relationship, suggesting that women are slowly becoming more represented in casts. However, the pace of this progress is limited, as the proportion of women in main casts has only reached 0.38. This highlights the urgent need for more intentional and sustained efforts to foster equitable gender representation in the film industry. While progress has been made, the disparity underscores the systemic nature of gender imbalance in the film industry. The visual statistics below provide a clear snapshot of these trends, highlighting the need for continued efforts toward achieving gender parity in cinema.
   </p>
   <section style="margin: 40px auto; text-align: center;">
-  <h2 style="margin-bottom: 20px; color: #2c3e50;">Some Statistics: Actor Ratio per Movie</h2>
+  <h2 style="margin-bottom: 20px; color:rgb(0, 0, 0);">Some statistics: Actor ratio per movie</h2>
 
 <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
 
@@ -147,10 +144,10 @@ title: "SARteam"
 
   <!-- Right-aligned Chi-square Box with Tooltip -->
   <div class="counter" 
-       style="background-color: #eaeaea; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); max-width: 200px;" 
+       style="background-color: rgb(255, 247, 230); padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); max-width: 200px;" 
        title="The Chi-square statistic measures the deviation between observed and expected frequencies.">
     <div class="count-title count-number" style="color: #2c3e50; font-size: 2.5em; font-weight: bold; margin: 0 0 0px 0;">370.63</div>
-    <p class="count-text" style="color: #2c3e50; font-weight: bold;">Chi-square Statistic</p>
+    <p class="count-text" style="color: #2c3e50; font-weight: bold;">Chi-square statistic</p>
   </div>
 
 </section>
@@ -165,14 +162,14 @@ title: "SARteam"
     <div class="contact-picture" style="margin-right: 10px;">
       <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
     </div>
-    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+    <div class="chat-bubble" style="background-color: rgb(255, 247, 230); padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
       I’ve heard about this interesting metric called the Bechdel Test.
     </div>
   </div>
 
   <!-- SAR's Message (Right) -->
   <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
-    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+    <div class="chat-bubble" style="background-color: #ffebc4; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
       It’s a great starting point to evaluate how inclusive a movie is when it comes to gender representation. Let us walk you through it:
     </div>
     <div class="contact-picture" style="margin-left: 10px;">
@@ -260,14 +257,14 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
     <div class="contact-picture" style="margin-right: 10px;">
       <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
     </div>
-    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+    <div class="chat-bubble" style="background-color: rgb(255, 247, 230); padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
       This Bechdel Test is very interesting. However, if I create a movie with the intent of achieving a Bechdel score of 3, this is very easy. I just need to hire two women, name their character, and write a two-line dialogue about something unrelated to men.
     </div>
   </div>
 
   <!-- SAR's Message (Right) -->
   <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
-    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+    <div class="chat-bubble" style="background-color: #ffebc4; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
       Yes, you are right. Hence, we can create a more meaningful metric to help you evaluate whether a movie is truly inclusive!
     </div>
     <div class="contact-picture" style="margin-left: 10px;">
@@ -315,8 +312,8 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
     <div class="contact-picture" style="margin-right: 10px;">
       <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
     </div>
-    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
-      This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores often have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.
+    <div class="chat-bubble" style="background-color: rgb(255, 247, 230); padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+      This Inclusivity score is a good idea, but I have done some research. Look, movies with high success scores all have very poor representation ratings. I want to help the film industry become more equitable, but I don’t want my movie to fail.
     </div>
   </div>
 
@@ -333,7 +330,7 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
 
   <!-- SAR's Message (Right) -->
   <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
-    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+    <div class="chat-bubble" style="background-color: #ffebc4; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
       You can be reassured, if your movie is good, prioritizing inclusivity will not harm its success. However, there is still significant progress to be made before inclusivity becomes the norm in the movie industry. While we would expect that inclusivity positively contributes to a movie’s success, we are far from it. Achieving this will require continued efforts, such as better representation of women in storytelling and active advocacy within the industry.
     </div>
     <div class="contact-picture" style="margin-left: 10px;">
@@ -353,14 +350,14 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
     <div class="contact-picture" style="margin-right: 10px;">
       <img src="assets/img/productrice.png" alt="Marine" style="width: 100px; height: 100px; border-radius: 30%;">
     </div>
-    <div class="chat-bubble" style="background-color: #f1f1f1; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+    <div class="chat-bubble" style="background-color: rgb(255, 247, 230); padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
       Okay, this is nice. I guess we will succeed in making an inclusive movie. However, I am concerned that it might affect the success of my movie.
     </div>
   </div>
 
   <!-- SAR's Message (Right) -->
   <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
-    <div class="chat-bubble" style="background-color: #e0ebeb; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+    <div class="chat-bubble" style="background-color: #ffebc4; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
       Defining what constitutes the success of a movie is not an easy task, but we will take up this challenge !
     </div>
     <div class="contact-picture" style="margin-left: 10px;">
@@ -395,12 +392,12 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
     {% include sankey_diagram.html %}
   </div>
 
-  <h1 id="the-success-metric">Some trivia</h1>
+### Some trivia
 
   <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
   Now that we have defined all our metrics and scores, you can now search for your favorite movie and see what score it has on those different metrics. You might be shocked of the results !
   </p>
-
+  
   <!-- Search Widget -->
   <div class="search-widget">
     <div class="label">Search your favourite movie:</div>
@@ -413,7 +410,35 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
   <br />
   <br />
   <br />
-  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
+
+# The path to inclusivity: Essential elements for your movie
+
+<!-- Main Chat Section -->
+<div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <!-- Producer's Message (Left) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div class="contact-picture" style="margin-right: 10px;">
+      <img src="assets/img/productrice.png" alt="Producer" style="width: 100px; height: 100px; border-radius: 30%;">
+    </div>
+    <div class="chat-bubble" style="background-color: rgb(255, 247, 230) ; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+      So, how can I make my movie as inclusive as possible? Which factors should I take into account?
+    </div>
+  </div>
+
+  <!-- SAR's Message (Right) -->
+  <div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px; justify-content: flex-end;">
+    <div class="chat-bubble" style="background-color: #ffebc4; padding: 15px; border-radius: 10px; max-width: 80%; width: 100%; text-align: left;">
+      To maximize your film’s inclusivity, it’s crucial to analyze the script in detail. We can help you identify the keywords and dialogues that foster fair and diverse representation. Using our inclusivity metric, we’ll assess how characters, their interactions, and the themes they explore reflect a wide range of genders, backgrounds, and roles.
+    </div>
+    <div class="contact-picture" style="margin-left: 10px;">
+      <img src="assets/img/SAR.png" alt="SAR" style="width: 100px; height: 100px; border-radius: 50%;">
+    </div>
+  </div>
+  </div>
+
+
+  <p style="font-size: 1.2em; line-height: 1.6; margin: 20px 0;">
    Achieving inclusivity in storytelling relies not just on character roles but also on the language and emotional contexts within narratives
    By examining language, character roles, and emotional contexts, we have identified key factors that contribute to achieving inclusivity in storytelling. These insights can help guide the creation of narratives that resonate with modern audiences and promote authentic representation of women.
    <br>
@@ -432,56 +457,56 @@ While passing the Bechdel Test is a useful first step, it’s crucial to think b
    <br>
    </p>
  
-<h2 style="margin-bottom: 20px; color: #2c3e50;">Gender context statistics</h2>
+<h2 style="margin-bottom: 20px; color:rgb(0, 0, 0);">Gender context statistics</h2>
 
 <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap;">
 
   <!-- Male Summaries Counter -->
-  <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
+  <div class="counter" style="background-color: #ffebc4; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
        title="Male context summaries: 501">
-    <i class="fa fa-male fa-2x" style="color: #000000;"></i>
-    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">47.8</div>
-    <p class="count-text" style="color: #2c3e50;">Percentage of male-context summaries (%)</p>
+    <i class="fa fa-male fa-2x" style="color: #cb2006;"></i>
+    <div style="color: #cb2006; font-size: 2em; font-weight: bold; margin: 10px 0;">47.8</div>
+    <p class="count-text" style="color: #cb2006;">Percentage of male-context summaries (%)</p>
   </div>
 
   <!-- Female Summaries Counter -->
-  <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
+  <div class="counter" style="background-color:  #cb2006; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
        title="Female context summaries: 325">
-    <i class="fa fa-female fa-2x" style="color: #000000;"></i>
-    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">31</div>
-    <p class="count-text" style="color: #2c3e50;">Percentage of female-context summaries (%)</p>
+    <i class="fa fa-female fa-2x" style="color: rgb(255, 255, 255);"></i>
+    <div style="color: rgb(255, 255, 255); font-size: 2em; font-weight: bold; margin: 10px 0;">31</div>
+    <p class="count-text" style="color: rgb(255, 255, 255);">Percentage of female-context summaries (%)</p>
   </div>
 
   <!-- Neutral Summaries Counter -->
-  <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
+  <div class="counter" style="background-color: rgb(255, 247, 230); padding: 20px; border-radius: 10px; width: 250px; height: 150px;"
        title="Neutral context summaries: 223">
-    <i class="fa fa-users fa-2x" style="color: #000000;"></i>
-    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">21.2</div>
-    <p class="count-text" style="color: #2c3e50;">Percentage of neutral-context summaries (%)</p>
+    <i class="fa fa-users fa-2x" style="color: rgb(255, 247, 230);"></i>
+    <div style="color: rgb(0, 0, 0); font-size: 2em; font-weight: bold; margin: 10px 0;">21.2</div>
+    <p class="count-text" style="color: rgb(0, 0, 0);">Percentage of neutral-context summaries (%)</p>
   </div>
 
 </div>
 
-<h2 style="margin-top: 40px; color: #2c3e50;">Average inclusivity score by gender context</h2>
+<h2 style="margin-top: 40px; color: rgb(255, 255, 255);">Average inclusivity score by gender context</h2>
 
 <div class="counter-wrapper" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
 
   <!-- Male Inclusivity Score -->
-  <div class="counter" style="background-color: #4ea2dd; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
-    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">38</div>
-    <p class="count-text" style="color: #2c3e50;">Male average (%)</p>
+  <div class="counter" style="background-color: #ffebc4; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
+    <div style="color:  #cb2006;; font-size: 2em; font-weight: bold; margin: 10px 0;">38</div>
+    <p class="count-text" style="color:  #cb2006;;">Male average (%)</p>
   </div>
 
   <!-- Female Inclusivity Score -->
-  <div class="counter" style="background-color: #ff4f41; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
-    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">50</div>
-    <p class="count-text" style="color: #2c3e50;">Female average (%)</p>
+  <div class="counter" style="background-color:  #cb2006; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
+    <div style="color: rgb(255, 255, 255); font-size: 2em; font-weight: bold; margin: 10px 0;">50</div>
+    <p class="count-text" style="color: rgb(255, 255, 255);">Female average (%)</p>
   </div>
 
   <!-- Neutral Inclusivity Score -->
-  <div class="counter" style="background-color: #d9d9d9; padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
-    <div style="color: #2c3e50; font-size: 2em; font-weight: bold; margin: 10px 0;">41</div>
-    <p class="count-text" style="color: #2c3e50;">Neutral average (%)</p>
+  <div class="counter" style="background-color: rgb(255, 247, 230); padding: 20px; border-radius: 10px; width: 250px; height: 150px;">
+    <div style="color: rgb(0, 0, 0); font-size: 2em; font-weight: bold; margin: 10px 0;">41</div>
+    <p class="count-text" style="color: rgb(0, 0, 0);">Neutral average (%)</p>
   </div>
 
 </div>
@@ -555,3 +580,17 @@ Looking at the evolution of the average inclusivity score of movies since the 80
  <p style="font-size: 1.2em; line-height: 1.6; margin: 40px 0;">
 taking 20 films/year minimum, improvements since the 90s: Pearson correlation coefficient: 0.443, p-value: 0.034 <br>
  </p>
+ 
+# Conclusion
+
+ <!-- Producer's Conclusion (Left) -->
+<div class="chat-message" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div class="contact-picture" style="margin-right: 10px;">
+    <img src="assets/img/productrice.png" alt="Producer" style="width: 100px; height: 100px; border-radius: 30%;">
+  </div>
+  <div class="chat-bubble" style="background-color: rgb(255, 247, 230) ;padding: 15px; border-radius: 10px; max-width: 80%; width: 100%;">
+    Thank you, SAR team! Achieving inclusivity in storytelling relies not just on character roles but also on the language and emotional contexts within narratives. By examining these factors, we've identified what truly makes a story resonate with modern audiences. Your insights into language, character dynamics, and emotional depth have given me a clear path forward. I'm confident we can create stories that are not only inclusive but also compelling and authentic. Let's break the old narrative and set a new standard for storytelling!
+  </div>
+</div>
+
+
