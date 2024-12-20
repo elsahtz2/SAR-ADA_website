@@ -3,6 +3,12 @@ layout: default
 title: "SARteam"
 ---
 
+<div id="initial-letter-container">
+  <div id="initial-letter" class="letter">A</div>
+</div>
+<script src="assets/js/message.js"></script>
+
+
 <!-- Main Chat Section -->
 <div class="chat-container" style="max-width: 1200px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
 
@@ -582,5 +588,8 @@ taking 20 films/year minimum, improvements since the 90s: Pearson correlation co
     Thank you, SAR team! Achieving inclusivity in storytelling relies not just on character roles but also on the language and emotional contexts within narratives. By examining these factors, we've identified what truly makes a story resonate with modern audiences. Your insights into language, character dynamics, and emotional depth have given me a clear path forward. I'm confident we can create stories that are not only inclusive but also compelling and authentic. Let's break the old narrative and set a new standard for storytelling!
   </div>
 </div>
+
+<audio id="letter-sound" src="assets/sounds/send.wav" preload="auto"></audio>
+
 
 
