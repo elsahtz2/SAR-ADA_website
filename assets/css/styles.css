@@ -489,7 +489,7 @@ h6::before {
   margin-bottom: 5px; /* Reduce space below the label */
   margin-right: 10px; /* Add space between the label and input */
   margin-left: 110px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
   color: #ffffff; /* Darker red tone for better contrast */
@@ -497,12 +497,12 @@ h6::before {
 
 #searchInput {
   border: 2px solid #cc5555; /* Softer border */
-  margin-left: 200px;
+  margin-left: 110px;
   border-radius: 8px;
   box-shadow: none; /* Remove extra shadow */
   padding: 10px 20px;
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #searchInput:focus {
